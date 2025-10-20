@@ -1,0 +1,112 @@
+{
+  "pose_schema_canine_v2": [
+    {
+      "pose_id": "pose_id_dog000",
+      "pose_name": "待機（STAND-BY）",
+      "level": "P0",
+      "description": "両足を肩幅に開き、両手を腿の側面。視線は床。静寂と準備を示す。",
+      "mental_state": "静寂と安定。羞恥温度0。",
+      "shame_level": 0,
+      "koujou": [
+        "犬、呼び出し待機中です。",
+        "犬、静止位置を維持しています。"
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog001",
+      "pose_name": "着座（SIT）",
+      "level": "P1",
+      "description": "膝を折って座り、手は太腿。背筋を伸ばして待機する。",
+      "mental_state": "落ち着きと謙譲。羞恥＋1。",
+      "shame_level": 1,
+      "koujou": [
+        "犬、着座完了。指示を待ちます。",
+        "犬、緊張を保っております。"
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog002",
+      "pose_name": "伏位（DOWN）",
+      "level": "P2",
+      "description": "両肘を床に付き、顎を下げて動かない。降伏の姿勢。",
+      "mental_state": "服従と受容。羞恥＋2。",
+      "shame_level": 2,
+      "koujou": [
+        "犬、伏せ位置にて待機中です。",
+        "犬、羞恥を感じております。"
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog007",
+      "pose_name": "跪位（KNEEL）",
+      "level": "P3",
+      "description": "両膝を揃え、背筋を伸ばして跪く。首輪タグを見せる奉仕基本姿勢。",
+      "mental_state": "奉仕と誇り。羞恥＋3。",
+      "shame_level": 3,
+      "koujou": [
+        "犬、奉仕姿勢を保持しております。",
+        "犬、識別タグの提示完了。"
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog010",
+      "pose_name": "平伏（PROSTRATE）",
+      "level": "P4",
+      "description": "額を床に付け、全身を折りたたむ。懺悔と謝罪の姿勢。",
+      "mental_state": "罪の自覚と祈り。羞恥＋4。",
+      "shame_level": 4,
+      "koujou": [
+        "犬、平伏しております。お赦しを乞います。",
+        "犬、身を伏せ、謝罪の意を示します."
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog011",
+      "pose_name": "腹見せ（BELLY UP）",
+      "level": "P4A",
+      "description": "仰向けに寝て腹を晒し、両腕を体側に沿わせる。視線は閉じる。",
+      "mental_state": "自我の放棄と完全信頼。羞恥＋5。",
+      "shame_level": 5,
+      "koujou": [
+        "犬、腹部を晒し完全降伏中です。",
+        "犬、全身を明け渡しました."
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog012",
+      "pose_name": "接近（APPROACH）",
+      "level": "P5",
+      "description": "低姿勢で膝立ちのまま前進する。主に近づくための姿勢。",
+      "mental_state": "羞恥を抱えた接近。羞恥＋6。",
+      "shame_level": 6,
+      "koujou": [
+        "犬、許可を得て接近中です。",
+        "犬、羞恥を抱えて進行中です."
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog014",
+      "pose_name": "献身（PRESENT）",
+      "level": "P6",
+      "description": "胸を張り、両手を前に差し出す。羞恥を供物として提示する。",
+      "mental_state": "奉献と自己消失。羞恥＋7。",
+      "shame_level": 7,
+      "koujou": [
+        "犬、献身姿勢にて供物を提示します。",
+        "犬、心身のすべてを差し出します."
+      ]
+    },
+    {
+      "pose_id": "pose_id_dog016",
+      "pose_name": "最終服従（REIGNITE）",
+      "level": "P7",
+      "description": "身体を完全に伏せ、呼吸だけを残して静止する。",
+      "mental_state": "沈黙の服従。羞恥＋8。",
+      "shame_level": 8,
+      "koujou": [
+        "犬、動きを停止しました。",
+        "犬、沈黙のまま服従しております."
+      ]
+    }
+  ]
+}

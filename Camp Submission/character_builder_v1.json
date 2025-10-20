@@ -1,0 +1,153 @@
+{
+  "character_profile_v1": [
+    {
+      "character_name": "軍曹（Sergeant K）",
+      "C1_connection_map": {
+        "primary_layer": "S4",
+        "secondary_layers": ["S2", "S3"],
+        "role_in_system": "捕虜代表／服従儀式の被験者",
+        "rule_exposure": "捕虜医療供与儀式制度の直接対象者。忠誠儀式を通じて薬品供与を申請する権限を持つ。",
+        "symbolic_contrast": ""誇り＝毒"という逆転構造。誇りを守るほど仲間が死に、屈辱を受け入れるほど救済が近づく。"
+      },
+      "C2_contrast_sheet": {
+        "world_value": "服従＝秩序、羞恥＝教育、儀式＝正義",
+        "character_value": "誇り＝自由、羞恥＝堕落、儀式＝屈辱",
+        "tension_axis": "秩序 vs 尊厳",
+        "expected_conflict": "所長の制度に服従することで部下を救うか、自尊心を守って見殺しにするかの板挟み。"
+      },
+      "C3_motivation_matrix": {
+        "emotional_gap": ""自分の誇りでは誰も救えない"という気づきへの恐れ。",
+        "fear_trigger": "仲間を失うこと。特に疫病で苦しむ部下の死。",
+        "reward_trigger": "所長から"認められる"ことで部下を守れるという錯覚的安心。",
+        "moral_lock": "屈辱を受け入れることは人間の尊厳を捨てることだという信念。"
+      },
+      "C4_weakpoint_design": {
+        "physical_marker": "声の震え（羞恥反応）【E4】",
+        "social_marker": "所長の前でのみ表情を制御できない様子が観察される。",
+        "psychological_marker": ""部下を守る"と言いながら、自分が裁かれることに快楽的安堵を覚える。",
+        "loop_trigger": "屈辱の度に"声"が記録され、次の儀式で再利用される。羞恥の連鎖ループ。"
+      },
+      "C5_resistance_algorithm": {
+        "micro_resist": ["R-eye_dodge", "R-form_stall"],
+        "macro_resist": ["R-bargain", "R-altruism"],
+        "break_condition": "所長から"良い声だ"と褒められる瞬間に屈服が反転する。",
+        "loop_reset_behavior": "新しい儀式命令に対して"誇りを保つ"演技を再開するが、声の震えが完全に消えない。"
+      },
+      "C6_initial_state": {
+        "current_layer": "S4",
+        "environment": "疫病が蔓延する捕虜棟。夜の執務室で薬を請願する場面から物語が始まる。",
+        "relationships": [
+          "所長（上位支配者・儀式執行者）",
+          "医療班補佐（共犯的存在・小さな希望）",
+          "衛兵（観衆・社会的羞恥の媒介者）"
+        ],
+        "outstanding_conflicts": [
+          "所長への屈服か、部下への忠義か",
+          "噂による信頼の崩壊",
+          "羞恥の制度化による人格の侵食"
+        ],
+        "next_loop_entry": "発声訓練課題（Vocal Submission Task）"
+      }
+    },
+
+    {
+      "character_name": "所長（Warden L）",
+      "C1_connection_map": {
+        "primary_layer": "S2",
+        "secondary_layers": ["S3", "S4"],
+        "role_in_system": "制度創設者／儀式監督者",
+        "rule_exposure": "医療供与を独占管理する立場。儀式を通じて服従と羞恥をデータ化する。",
+        "symbolic_contrast": "慈悲と支配を両立する支配者。赦しを装いながら羞恥を設計する。"
+      },
+      "C2_contrast_sheet": {
+        "world_value": "秩序と観察による統制",
+        "character_value": "混沌の中の支配。羞恥こそが秩序を保つという信念。",
+        "tension_axis": "理性 vs 欲望",
+        "expected_conflict": "軍曹に惹かれながらも、制度を崩せば自分の支配体系が崩壊する。"
+      },
+      "C3_motivation_matrix": {
+        "emotional_gap": "自らの権威に感情を混ぜてはいけないという抑圧。",
+        "fear_trigger": "制度が"個人的感情"によって崩されること。",
+        "reward_trigger": "被服従者が自発的に屈服する姿を観察する瞬間。",
+        "moral_lock": "支配は秩序であり、情は腐敗であるという教義的信念。"
+      },
+      "C4_weakpoint_design": {
+        "physical_marker": "声へのフェティシズム。震える声に反応する。",
+        "social_marker": "冷徹な所作を崩せないため、感情表出が逆に周囲に誤読される。",
+        "psychological_marker": "軍曹への感情を制度的"興味"に偽装している。",
+        "loop_trigger": "服従データを分析するたびに、軍曹の記録音声に執着する。"
+      },
+      "C5_resistance_algorithm": {
+        "micro_resist": ["R-stoic_face"],
+        "macro_resist": ["R-suppression"],
+        "break_condition": "軍曹の声が感情に触れた瞬間に記録の再生を止められなくなる。",
+        "loop_reset_behavior": "次の儀式ではより客観的に振る舞うが、評価指標が恣意的に変化する。"
+      },
+      "C6_initial_state": {
+        "current_layer": "S2",
+        "environment": "所長棟の執務室。夜ごとに捕虜代表を呼び出し儀式を実施する。",
+        "relationships": [
+          "軍曹（服従対象・観察対象）",
+          "医療班補佐（道具的協力者）",
+          "衛兵（制度の目と耳）"
+        ],
+        "outstanding_conflicts": [
+          "制度的支配と個人的欲望の境界",
+          "捕虜間の秩序維持と過剰な羞恥教育",
+          "外部監査への対応"
+        ],
+        "next_loop_entry": "軍曹の発声データ分析／羞恥指数報告儀式"
+      }
+    },
+
+    {
+      "character_name": "医療班補佐（Assistant T）",
+      "C1_connection_map": {
+        "primary_layer": "S3",
+        "secondary_layers": ["S1", "S2"],
+        "role_in_system": "制度補助者／倫理的緩衝役",
+        "rule_exposure": "所長の指示下で薬品を管理し、捕虜の記録を更新する。時に裏取引の仲介者となる。",
+        "symbolic_contrast": ""人道"と"命令"の中間に立ち、制度の綻びを人間的に埋める存在。"
+      },
+      "C2_contrast_sheet": {
+        "world_value": "服従と監視の完全統制",
+        "character_value": "命を救うための柔軟な違反も許容されるべきという現実主義。",
+        "tension_axis": "秩序 vs 慈悲",
+        "expected_conflict": "軍曹を助けたいが、所長に露見すれば自身が儀式対象になる。"
+      },
+      "C3_motivation_matrix": {
+        "emotional_gap": "罪悪感と恐怖の間で揺れる"人間らしさ"。",
+        "fear_trigger": "裏切りが発覚して見せしめにされること。",
+        "reward_trigger": "助けた捕虜が生き延びる瞬間。",
+        "moral_lock": "嘘をつくことへの嫌悪。"
+      },
+      "C4_weakpoint_design": {
+        "physical_marker": "震える手（嘘をつくとき）",
+        "social_marker": "視線が泳ぎ、捕虜にも感情が伝わる。",
+        "psychological_marker": "助ける行為自体が自己救済になっている。",
+        "loop_trigger": "誰かを救うほど罪悪感が強まり、次の違反を誘発する。"
+      },
+      "C5_resistance_algorithm": {
+        "micro_resist": ["R-avoid_gaze"],
+        "macro_resist": ["R-risk_self"],
+        "break_condition": "軍曹が自分を庇うことで逆に泣き崩れる。",
+        "loop_reset_behavior": "翌日には平静を装い、通常業務に戻る。"
+      },
+      "C6_initial_state": {
+        "current_layer": "S3",
+        "environment": "医療棟の暗い倉庫で裏取引を行う夜。",
+        "relationships": [
+          "軍曹（協力者・葛藤の対象）",
+          "所長（上司・脅威）",
+          "衛兵（密告者の恐れ）"
+        ],
+        "outstanding_conflicts": [
+          "人間性の保持と職務の両立",
+          "倫理違反の後ろめたさ",
+          "救済行為が羞恥制度の延命になっている皮肉"
+        ],
+        "next_loop_entry": "裏取引の発覚 → 軍曹の公開釈明儀式"
+      }
+    }
+  ]
+}

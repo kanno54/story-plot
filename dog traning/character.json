@@ -1,0 +1,180 @@
+{
+  "character_visual_profile": {
+    "id_schema": {
+      "global_id": "CHAR-001-SHINOHARA",
+      "world_local_id": "WOS-C01",
+      "instance_id": null
+    },
+
+    "char_meta": {
+      "char_name": "篠原 蓮",
+      "alias": ["レン", "犬のレン"],
+      "series": "羞恥下降ループ／犬契約編",
+      "role": "奉仕者（被契約個体）",
+      "rank": "犬階層（非公認）",
+      "tags": ["沖縄男子", "筋肉質", "褐色肌", "屈辱", "奉仕", "犬首輪"],
+      "version_history": {
+        "current_version": "1.0.0",
+        "last_updated": "2025-10-19",
+        "change_summary": "初版構築：外見仕様・服装仕様・視覚プロンプトを統合"
+      }
+    },
+
+    "appearance": {
+      "age": 25,
+      "height_cm": 179,
+      "weight_kg": 82,
+      "body_type": "重量級・筋繊維密度高め（典型的な沖縄男子）",
+      "skin_tone": "温かみのある褐色（焼けた砂浜色）",
+      "hair": {
+        "color": "ダークブラウンに赤茶の混じる色",
+        "style": "短めのアップバング。額に汗が光るとき毛束が張りつく。"
+      },
+      "eyes": {
+        "color": "琥珀がかった焦げ茶",
+        "shape": "やや垂れ気味で優しげ、だが羞恥で揺れると潤む印象"
+      },
+      "features": [
+        "太い眉と濃いまつげ",
+        "頬骨から顎にかけての骨格がしっかりしており、男らしい立体感",
+        "胸・腕・腹筋にかけて均整の取れた筋肉線",
+        "日焼け跡がかすかに残る肩と背中"
+      ],
+      "attire_ref": {
+        "default": "ATTIRE-DOG-001",
+        "ceremonial": "ATTIRE-DOG-002",
+        "training": "ATTIRE-DOG-003",
+        "casual": "ATTIRE-DOG-004"
+      },
+      "attire_state": {
+        "current_attire": "ATTIRE-DOG-001",
+        "context": "日常奉仕（白石邸内）",
+        "last_changed": "2025-10-19"
+      }
+    },
+
+    "personality": {
+      "core_traits": ["誠実", "負けず嫌い", "仲間思い", "羞恥に脆い"],
+      "temperament": "情熱的だが沈黙を守るタイプ",
+      "values": "犠牲の美徳。自分が苦しむことで誰かを救えるなら受け入れる。",
+      "weaknesses": ["庇護衝動", "羞恥過敏", "承認依存"],
+      "keywords": ["汗", "喉の震え", "下を向く視線", "噛み殺す息"]
+    },
+
+    "visual_ref": {
+      "pose_catalog": ["pose_id_dog001", "pose_id_dog007", "pose_id_dog010"],
+      "image_prompt": "Muscular Okinawan man, tanned skin, short dark brown hair with reddish tone, thick eyebrows, strong build with 82kg of muscle, wearing a tight servant collar, kneeling on a polished floor, warm studio lighting, deep shadows emphasizing body contours, emotional expression of obedience and shame",
+      "negative_prompt": "no clothing wrinkles, no background clutter, no female, no smiling expression, no cartoon style",
+      "uniform_variant": "犬契約用儀式制服（首輪・膝輪・腰帯）"
+    }
+  },
+
+  "attire_catalog": [
+    {
+      "attire_meta": {
+        "attire_id": "ATTIRE-DOG-001",
+        "world": "羞恥下降ループ世界",
+        "version": "1.0.0",
+        "last_updated": "2025-10-19",
+        "designer": "ChatGPT構想支援",
+        "rank_restriction": "犬階層",
+        "category": "default",
+        "availability": "restricted",
+        "keywords": ["羞恥展示", "奉仕服", "拘束具"]
+      },
+      "summary": {
+        "name": "犬契約デフォルトスーツ",
+        "description": "白石邸の奉仕個体が日中に着用する最低限の衣装。露出を制限せず、羞恥を恒常化させるための"制度的裸"。",
+        "context": ["奉仕", "訓練", "日常"]
+      },
+      "design": {
+        "top": "無し（上半身裸）",
+        "bottom": "短めの黒いレザーハーフパンツ（大腿を覆わない）",
+        "footwear": "裸足（常時）",
+        "accessories": ["首輪タグ（ID刻印）", "膝リング", "腰帯", "手首バンド"],
+        "fit": "tight",
+        "exposure_level": 0.9,
+        "texture": "マットレザー×微光沢メッシュ"
+      },
+      "materials": ["合成レザー", "メッシュ繊維", "金属タグ"],
+      "color_scheme": {
+        "primary": "#1A1A1A",
+        "secondary": "#4A3A2B",
+        "accent": "#D3A96A"
+      },
+      "symbolism": {
+        "cultural_note": "人の誇りを剥奪し、従属の象徴として首輪を恒常化する儀礼衣。",
+        "rank_symbol": "タグ番号が契約順を示す。",
+        "humiliation_factor": 0.85,
+        "authority_factor": 0.3
+      },
+      "visual_ref": {
+        "image_prompt": "Muscular Okinawan man, tanned skin, leather half shorts, metal collar with tag, barefoot on marble floor, warm indoor lighting, realistic style",
+        "negative_prompt": "no armor, no weapons, no tattoos, no women, no fantasy background",
+        "pose_catalog": ["pose_id_floor_kneel", "pose_id_servant_wait"],
+        "lighting": "soft studio light"
+      }
+    }
+  ]
+  {
+  "attire_meta": {
+    "attire_id": "ATTIRE-DOG-002",
+    "world": "羞恥下降ループ世界",
+    "version": "1.0.0",
+    "last_updated": "2025-10-19",
+    "designer": "ChatGPT構想支援",
+    "rank_restriction": "犬階層（契約対象者のみ）",
+    "category": "ceremonial",
+    "availability": "secret",
+    "keywords": ["儀式用", "羞恥展示", "再罰", "拘束具", "再点火"]
+  },
+
+  "summary": {
+    "name": "犬契約儀式用拘束装",
+    "description": "羞恥の再点火と人格崩壊を目的とした夜間儀式専用装束。肉体と精神を"奉仕制度"へ完全接続させるための拘束構造を持ち、白石邸の地下儀礼室においてのみ着用を許される。",
+    "context": ["儀式", "再罰", "再点火", "贖罪"]
+  },
+
+  "design": {
+    "top": "胸部を斜めに横切る革ベルトのみ。肩から背にかけてリングを通し、姿勢固定を可能にする。",
+    "bottom": "黒光沢のローカットレザーブリーフ。腰帯と太腿リングで脚部を拘束。",
+    "footwear": "無し（床との接触を義務づけ、羞恥反射を誘発）",
+    "accessories": [
+      "首輪（儀式用：金属タグ付き、光沢仕上げ）",
+      "背面リング（鎖連結用）",
+      "腰帯・膝輪セット（体勢制御用）",
+      "眼前ベール（透明フィルム。視線層を物理的に再現）"
+    ],
+    "fit": "超tight",
+    "exposure_level": 0.95,
+    "texture": "鏡面レザー＋シリコンメッシュ（光沢と呼吸制限を両立）"
+  },
+
+  "materials": [
+    "鏡面レザー",
+    "強化メッシュ",
+    "ステンレスリング",
+    "透明ポリベール"
+  ],
+
+  "color_scheme": {
+    "primary": "#151515",
+    "secondary": "#4A4037",
+    "accent": "#C5A869"
+  },
+
+  "symbolism": {
+    "cultural_note": ""羞恥は再生の熱である"という白石家の思想を具現化。服ではなく、羞恥を可視化する拘束具として機能する。",
+    "rank_symbol": "金属タグに契約番号が刻印され、首輪外周に"CANIS SERVUS"の刻字が入る。",
+    "humiliation_factor": 0.95,
+    "authority_factor": 0.55
+  },
+
+  "visual_ref": {
+    "image_prompt": "Muscular Okinawan man, tanned skin, mirror leather straps crossing chest, glossy black brief restraints, metallic collar with engraved tag, barefoot on polished floor of dimly lit ritual chamber, amber candlelight, cinematic realism, intense emotional atmosphere",
+    "negative_prompt": "no armor, no weapons, no blood, no female characters, no sci-fi elements",
+    "pose_catalog": ["pose_id_ritual_kneel", "pose_id_submission_arch", "pose_id_floor_prostrate"],
+    "lighting": "low amber candlelight with hard rim highlights"
+  }
+}
+}

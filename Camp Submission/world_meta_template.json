@@ -1,0 +1,81 @@
+{
+  "world_meta": {
+    "world_name": "Camp Submission",
+    "alias": ["捕虜服従収容所", "医療供与儀式区画"],
+    "series": "ゲイ小説共通設計図・世界群",
+    "author": "（あなたのハンドルネーム）",
+    "version": "2.0.0",
+    "created_at": "2025-10-17",
+    "updated_at": "2025-10-17",
+
+    "mode": {
+      "type": "erotic",
+      "options": {
+        "neutral": {
+          "label": "一般小説モード",
+          "focus": ["社会構造", "心理描写", "制度設計"],
+          "tone": "客観的・抑制的",
+          "token_method": null,
+          "bias_profile": null
+        },
+        "erotic": {
+          "label": "官能小説モード",
+          "focus": ["羞恥", "奉仕", "肉体", "支配と服従"],
+          "tone": "感情的・内省的・身体的",
+          "token_method": "トークン挿入式官能執筆法 ver.1",
+          "bias_profile": {
+            "appearance_bias": [
+              "無骨で整った中年軍人の顔立ち",
+              "筋肉質で鍛え上げられた体格",
+              "表情を抑えた沈黙の威厳"
+            ],
+            "personality_bias": [
+              "誇り高く冷静だが情に脆い",
+              "羞恥を理性で抑え込むが、仲間のためなら屈する",
+              "命令には抗うが、慈悲には弱い"
+            ]
+          }
+        },
+        "mythic": {
+          "label": "象徴・宗教モード（任意）",
+          "focus": ["儀式", "救済", "象徴体系", "詩的構造"],
+          "tone": "静謐・神話的・断片的",
+          "token_method": "象徴的省略法 ver.α",
+          "bias_profile": null
+        }
+      }
+    },
+
+    "world_type": "階層管理型捕虜社会／服従儀式制御世界",
+    "genre": ["ゲイ小説", "社会SF", "心理劇"],
+    "language": "ja",
+
+    "writing_style": {
+      "narrative_perspective": "一人称（軍曹視点）",
+      "tone": "抑制的・内省的・儀式的"
+    },
+
+    "integration": {
+      "simulation_link": "camp_submission_simulation.json",
+      "character_catalog": "camp_submission_characters.json",
+      "image_catalog": "camp_submission_visuals.json",
+      "plot_folder": "plots/camp_submission/"
+    },
+
+    "keywords": [
+      "捕虜",
+      "屈辱",
+      "医療儀式",
+      "服従",
+      "階層社会",
+      "権力",
+      "羞恥",
+      "赦し",
+      "観衆",
+      "声の震え"
+    ],
+
+    "summary": "戦争捕虜たちが管理される収容所では、薬の供与が服従儀式と結びつけられている。誇り高い軍曹は、仲間を救うために屈辱の儀式に身を晒し、声の震えが新たな従順の証として制度に取り込まれていく。",
+    "notes": "この世界は『捕虜医療供与儀式制度』を中心に運用される。羞恥を制度的に再利用し、屈服を社会秩序の要素として描く。トークン挿入式官能執筆法を採用し、身体描写を省略しつつ心理と制度の張力で物語を成立させる。次章以降は『発声訓練課題』を通じて"声＝服従"の象徴体系を深化させる。"
+  }
+}

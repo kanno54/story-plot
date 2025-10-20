@@ -1,0 +1,107 @@
+{
+  "episode_advancement_v1": {
+    "base_story": "疫病と懇願の夜",
+    "character_state": {
+      "name": "軍曹",
+      "loops_done": 1,
+      "layer_history": ["S1", "S2", "S3", "S4"],
+      "traits": ["誇り高い", "責任感が強い", "冷静", "仲間思い"],
+      "taboos": ["屈辱に頭を下げる", "身体的接触を伴う服従"]
+    },
+    "world_state": {
+      "rules": [
+        "捕虜は夜間の外出禁止",
+        "薬品は所長の許可がないと支給されない",
+        ""忠誠儀式"を受けた者のみ医療物資の申請が可能"
+      ],
+      "audiences": ["衛兵", "同室の捕虜たち"],
+      "tech": ["監視タグ", "無線照明システム"],
+      "open_threads": ["疫病は蔓延中", "次回の儀式審査が近い"]
+    },
+
+    "A_situation_analyzer_v1": {
+      "layer_saturation": {
+        "S1": { "score": 0.7, "evidence": ["肉体的屈辱描写が一度出現"] },
+        "S2": { "score": 0.9, "evidence": ["制度的取引構造が成立済み"] },
+        "S3": { "score": 0.8, "evidence": ["噂と視線による羞恥が機能"] },
+        "S4": { "score": 0.95, "evidence": ["心理的屈服の瀬戸際まで進行"] }
+      },
+      "latent_assets": {
+        "unused_rules": ["夜間通報義務（病人の看護申請ルート）"],
+        "unused_tech": ["旧式の医療冷却装置（所長棟地下）"],
+        "unused_audiences": ["医療班補佐の若い兵"],
+        "unused_social_links": ["他国捕虜との連携"]
+      },
+      "risk_notes": [
+        "心理層（S4）が飽和しており、さらなる屈服描写は麻痺の恐れあり",
+        "社会層（S3）を使って"噂→誤解→暴露"方向に転換が適切"
+      ]
+    },
+
+    "B_trigger_finder_v1": {
+      "trigger_candidates": [
+        {
+          "id": "T1",
+          "layer": "S3",
+          "title": "医療班補佐との"秘密の取引"",
+          "hook": "所長以外の人間に頼る＝規律違反。噂の火種になる。",
+          "why_now": "部下の病状が悪化し、所長を通す時間がない。",
+          "risk": "発覚した場合、"裏切り"として公開儀式の対象に。"
+        },
+        {
+          "id": "T2",
+          "layer": "S1",
+          "title": "地下冷却装置の手動操作",
+          "hook": "古い装置を自らの手で動かす必要があり、拘束を解かねばならない。",
+          "why_now": "薬を維持するには装置稼働が不可欠。",
+          "risk": "監視タグが感知してアラートが鳴る可能性。"
+        }
+      ],
+      "recommended_path": ["S3→S1→S4"]
+    },
+
+    "C_resistance_builder_v1": {
+      "selected_triggers": ["T1"],
+      "resist_design": {
+        "micros": ["R-eye_dodge", "R-form_stall"],
+        "macro": "R-bargain",
+        "token_map": {
+          "R-eye_dodge": "【E2】",
+          "R-form_stall": "【E3】",
+          "R-bargain": "【E4】"
+        },
+        "note": "軍曹は常に"交渉"で済ませようとするが、結果的に屈服の形へ滑り込む。"
+      }
+    },
+
+    "D_harvest_condenser_v1": {
+      "event_log": {
+        "layer": "S3",
+        "trigger": "T1",
+        "resists": ["R-eye_dodge", "R-bargain"],
+        "audience_feedback": ["衛兵が噂を広める", "所長がそれを聞きつける"],
+        "tokens_used": ["【E2】", "【E3】", "【E4】"]
+      },
+      "harvest_summary": "軍曹は"他者に頼った"ことで逆に孤立し、誇りよりも"無力"を意識するようになる。これが次の屈辱素材になる。",
+      "new_weakpoint_spec": {
+        "id": "W2",
+        "layer": "S1",
+        "sensor": "視線→声の震え",
+        "metric": "羞恥発声強度",
+        "note": "声を出す場面になると、屈服反応が顕著化する。"
+      }
+    },
+
+    "episode_blueprint": {
+      "scene_beats": [
+        {
+          "SETUP": "夜、病室で仲間の苦しみを見た軍曹は、医療班補佐を密かに呼び出す。",
+          "PRESSURE": "衛兵が通路を巡回し、誰かが彼らの会話を聞いた気配。【E2】",
+          "RESIST": "軍曹は"命令違反ではない、これは人道だ"と口実を探す。【E3】",
+          "BREAK": "翌朝、所長に呼び出され、裏取引の件で問い詰められる。屈辱の"釈明儀式"が行われる。【E4】",
+          "HOOK": "軍曹の声の震えが監視記録に残り、次の儀式では"発声訓練"が課題に加えられる。"
+        }
+      ]
+    }
+  }
+}

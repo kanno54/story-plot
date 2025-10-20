@@ -1,0 +1,61 @@
+{
+  "seed_name": "父の渇きと犬の再点火",
+  "structure": {
+    "S0_因果層": {
+      "cause": "石和田は実の息子・猛に性的欲望を抱いていた",
+      "effect": "倫理的葛藤を抑えきれず、猛を調教師に引き渡す",
+      "karma_score": 95,
+      "token": "【E0】"
+    },
+    "S1_物理層": {
+      "event": "拘束された猛が調教を受け、身体が快楽に反応してしまう",
+      "other_character": "調教師S男（加害者・支配者）",
+      "karma_score": 80,
+      "token": "【E1】"
+    },
+    "S2_制度層": {
+      "event": "猛は制度の外で調教されるが、S男と石和田の合意により『父の所有物』として承認される",
+      "result": "猛の行動・性反応・忠誠心が監視・強化される義務に変換",
+      "karma_score": 85,
+      "token": "【E2】"
+    },
+    "S3_視線層": {
+      "Y_layer": {
+        "event": "再会した父の命令に猛が応じる",
+        "token": "【E3-Y】"
+      },
+      "O_layer": {
+        "event": "首輪の装着がS男により記録・観察されている",
+        "token": "【E3-O】"
+      }
+    },
+    "S4_心理層": {
+      "event": "父に命令されながら絶頂し、羞恥が神経過敏化して再点火因子となる",
+      "effect": "再び『父のために奉仕したい』という自己矛盾が生まれる",
+      "karma_score": 100,
+      "token": "【E4】",
+      "reignite": true
+    }
+  },
+  "loop_feedback": {
+    "descend_bias": true,
+    "closure_state": false,
+    "loop_depth": "+1",
+    "loop_type": "permanent_degradation",
+    "harvest_summary": "羞恥は処理されず、精神の表層を蝕む残滓として残留した。"
+  },
+  "notes": {
+    "core_theme": "父子の倫理逸脱が羞恥の再点火ループへと転化され、どちらも元に戻れない『関係地獄』を形成する。",
+    "trigger_chain": [
+      "倫理の破壊（【E0】）→肉体反応（【E1】）→制度的拘束（【E2】）→関係羞恥（【E3-Y】）→心理再点火（【E4】）→次のS0へ"
+    ],
+    "risk_design": {
+      "micro": ["RC-punitive_loop", "RC-delay_shame"],
+      "macro": "RC-system_betray",
+      "token_map": {
+        "RC-punitive_loop": "【E3】",
+        "RC-delay_shame": "【E4】"
+      }
+    }
+  }
+}
