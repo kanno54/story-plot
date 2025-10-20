@@ -1,0 +1,236 @@
+{
+  "costume_id": "COSTUME_PIG_HIGA_TAKUMA_V3",
+  "name": "TAKUMA私物豚用羞恥装束（露出常態Ver.）",
+  "assigned_to": "比嘉 渉",
+  "owned_by": "神谷 拓真",
+  "classification": "私物管理型羞恥ギア",
+  "keywords": [
+    "完全私物",
+    "羞恥奉仕",
+    "刻印所有",
+    "視覚羞恥",
+    "排泄管理",
+    "露出常態"
+  ],
+  "material": {
+    "main": "マットブラックレザー",
+    "accent": ["赤ステッチ", "真鍮パーツ"],
+    "lining": "吸汗・脱臭メッシュ"
+  },
+  "structure": {
+    "collar": {
+      "type": "固定首輪",
+      "engraving": "PROPERTY OF TAKUMA",
+      "tags": ["TK-HGA", "PIG-HIGA"],
+      "locking_mechanism": "着脱不可・専用工具式",
+      "sensory_trigger": "開閉音トリガー有り"
+    },
+    "waist": {
+      "belt": "左右固定式／ダブルバックル／真鍮タグ付き",
+      "tag_detail": "TK-HGA 番号札"
+    },
+    "shoulders": {
+      "straps": "X型交差ストラップ（現在は装着頻度低）",
+      "feature": "姿勢補正テンション調整機構付き"
+    },
+    "exposure_level": {
+      "arms": "全露出",
+      "legs": "太腿3分の1程度まで露出",
+      "nipples": "リング付き常時露出・羞恥札装着箇所（左）"
+    }
+  },
+  "usage": {
+    "wear_modes": [
+      "常設軽装（首輪＋ピアス＋主栓＋羞恥札）",
+      "式典装備（前掛け一時着用）"
+    ],
+    "owner_operated": true,
+    "storage": {
+      "method": "吊り下げ専用ラック収納（前掛け・札含む）",
+      "location": "神谷私室／ユニフォームと並列",
+      "notes": "使用記録は羞恥札と連動してログ化管理"
+    }
+  },
+  "fetish_features": {
+    "scent_lock": "レザー素材に匂い吸着／解放機構",
+    "sound_trigger": "金具音で反射行動起動",
+    "branding": "右臀部に 'TAKUMA 🐖' 焼き印"
+  },
+  "piercings": {
+    "ear": {
+      "description": "左右に 'T'・'K' 刻印入りのミニプレートピアスを装着",
+      "symbolism": "タクマの所有物としての可視サイン"
+    },
+    "nipple": {
+      "description": "リング型ピアスに羞恥札（左側のみ）を吊り下げ",
+      "symbolism": "羞恥・禁欲・奉仕状態を可視化する札運用の基点"
+    },
+    "urethral": {
+      "description": "主栓ピアス（排泄・快楽制限具）",
+      "symbolism": "タクマ以外では外せない構造。禁欲支配の象徴"
+    }
+  },
+  "anal_plug": {
+    "description": "肛門用排泄封鎖ギア（常設アナルストッパー）",
+    "features": ["防臭構造", "羞恥視認デザイン", "強制保持構造"],
+    "symbolism": "タクマ以外による排泄が不可能な所有証明"
+  },
+  "shame_tag": {
+    "mount_point": "左乳首リング",
+    "variants": ["禁欲中", "懲罰中", "開放中"],
+    "selection_rule": "毎朝、自ら選んで装着。タクマの判断で正誤が裁定される"
+  },
+  "symbolism": {
+    "design_philosophy": "羞恥そのものを露出し、観賞・支配の対象に昇華させる",
+    "relation_to_owner": "『飾るための肉体』を完成させるための演出構造"
+  },
+  "notes": "本装束は比嘉渉の羞恥・排泄・快楽を完全に統制するために設計されており、前掛けは儀式的な再装着の演出としてのみ使用される。"
+},
+  {
+  "shame_tag_system": {
+    "mount_point": "左乳首リング",
+    "daily_selection": {
+      "time": "起床直後",
+      "location": "タクマの私室・札箱前",
+      "method": "3札から1枚を自分で選び、自ら装着",
+      "report_required": true,
+      "statement_example": "本日、禁欲中を選択しました"
+    },
+    "tag_variants": [
+      {
+        "id": "F1",
+        "label": "禁欲中",
+        "meaning": "快楽刺激から完全に自分を切り離し、従属と耐久を主に示す。",
+        "is_default": true,
+        "reaction": {
+          "success": "使用予定のない日であれば忠誠が評価される。",
+          "failure": "使用予定の日に選ぶと、漏らしてしまうリスクが高まり、懲罰対象となる。"
+        }
+      },
+      {
+        "id": "F2",
+        "label": "懲罰中",
+        "meaning": "罰を自発的に受け入れる姿勢。自己反省または強制によって付けられる。",
+        "is_default": false,
+        "reaction": {
+          "success": "稀に赦しが与えられる。",
+          "failure": "長時間の放置や羞恥的な姿勢維持を強いられる。"
+        }
+      },
+      {
+        "id": "F3",
+        "label": "開放中",
+        "meaning": "使われることへの期待を自ら表明する札。ただし自慰は禁止されており、誘惑姿勢と奉仕アピールが必須。",
+        "is_default": false,
+        "reaction": {
+          "success": "正解であればタクマに使用され、ご褒美として快楽が許される。",
+          "failure": "自意識過剰と見なされ、無視や羞恥的放置、あるいは懲罰に移行する。"
+        }
+      }
+    ],
+    "intervention_rules": [
+      {
+        "type": "direct_command",
+        "example": "今日は他の奴に使わせるから開放しておけ",
+        "effect": "札選択権を剥奪され、指定札（F3）を強制装着"
+      },
+      {
+        "type": "emotion_triggered",
+        "example": "タクマが怒っているとき、F2札のみが札箱に置かれる",
+        "effect": "無言の圧力により、懲罰札を自ら選ばざるを得ない心理構造が形成される"
+      },
+      {
+        "type": "judgment_error",
+        "example": "禁欲札を選んだが、実は開放が正解だった",
+        "effect": "使用機会を逸し、羞恥発情→失禁→懲罰札に差し替え"
+      }
+    ],
+    "logging": {
+      "daily_log_required": true,
+      "fields": [
+        "選択札ID",
+        "理由",
+        "実際の使用状況",
+        "主の判定（正解/不正解）",
+        "羞恥反応ログ"
+      ]
+    },
+    "notes": "札は羞恥・服従・快楽のすべてを支配するタグであり、選択そのものが比嘉渉の自己定義となる。札選択の自由は、同時に責任と羞恥の罠でもある。"
+  },  
+  {
+  "shame_tags": [
+    {
+      "id": "F1",
+      "label": "禁欲中",
+      "purpose": "快楽の完全抑制を選んだ自己制御と忠誠の表明。",
+      "pose_set": [
+        {
+          "id": "P1",
+          "name": "正座待機",
+          "description": "姿勢を崩さず静止し、発情の波を内面で抑える。"
+        },
+        {
+          "id": "P2",
+          "name": "四つん這い",
+          "description": "快楽からの逃避姿勢。羞恥の中で静かに身を沈める。"
+        },
+        {
+          "id": "V2",
+          "name": "視線回避",
+          "description": "主と目を合わせずに自制を維持する。欲望の否認表現。"
+        }
+      ],
+      "default_mount": "左乳首リング",
+      "reaction_notes": "刺激があっても決して反応してはならない。漏らせば懲罰。"
+    },
+    {
+      "id": "F2",
+      "label": "懲罰中",
+      "purpose": "罪や逸脱を自ら認め、罰を受ける姿勢。",
+      "pose_set": [
+        {
+          "id": "P4",
+          "name": "平伏",
+          "description": "両手両肘を床につけ、顔を伏せて無抵抗を示す。"
+        },
+        {
+          "id": "P5",
+          "name": "額付き正座",
+          "description": "頭を床につけた深謝姿勢。羞恥と服従の極み。"
+        },
+        {
+          "id": "V0",
+          "name": "無言耐久",
+          "description": "声も目も使わず、罰の終了をひたすら待つ。"
+        }
+      ],
+      "default_mount": "左乳首リング",
+      "reaction_notes": "自発懲罰であっても情状酌量なし。赦される可能性を信じて沈黙する。"
+    },
+    {
+      "id": "F3",
+      "label": "開放中",
+      "purpose": "使ってもらえる可能性にすがる、自発的誘惑と奉仕の兆候。",
+      "pose_set": [
+        {
+          "id": "P3",
+          "name": "尻突き出し",
+          "description": "臀部を上げて主栓部を強調。誘惑ポーズの基本型。"
+        },
+        {
+          "id": "P4A",
+          "name": "腹見せ（腹面開示）",
+          "description": "仰向けで腹部と表情を見せる服従アピール。"
+        },
+        {
+          "id": "V1",
+          "name": "視線誘導固定",
+          "description": "主の顔を無言で追い、使われる機会を待ち望む。"
+        }
+      ],
+      "default_mount": "左乳首リング",
+      "reaction_notes": "自慰は禁止。あくまで"使われたい"という羞恥アピールに徹する。放置されることもある。"
+    }
+  ]
+  } 
+}

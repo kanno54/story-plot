@@ -1,0 +1,77 @@
+{
+  "costume_id": "COSTUME_PIG_HIGA_TAKUMA_V1",
+  "name": "私物豚用実用装束",
+  "assigned_to": "比嘉 渉",
+  "owned_by": "神谷 拓真",
+  "type": "完全私物・羞恥奉仕ギア",
+  "keywords": [
+    "私物マーキング",
+    "羞恥反応視覚化",
+    "即使用仕様",
+    "支配フェティシズム",
+    "観賞と操作",
+    "豚タグ管理"
+  ],
+  "design": {
+    "base_material": "マットブラックレザー（制汗防汚コーティング）",
+    "accent_material": "赤ステッチ・真鍮タグ・通気用メッシュ布",
+    "coverage": {
+      "torso": "胸〜股間前部を覆う前掛け型プレート。柔軟レザー製。",
+      "waist": "左右固定式の金属バックルベルト。右側に識別タグ吊り下げ。",
+      "shoulder": "左右斜めにクロスするストラップ。姿勢補正用テンション付き。",
+      "neck": {
+        "type": "常設首輪",
+        "engraving": "PROPERTY OF TAKUMA",
+        "subtag": "TK-HGA / HIGA 渉",
+        "locking": true
+      }
+    },
+    "exposure": {
+      "arms": "完全露出",
+      "legs": "太もも上部まで露出、動作時に股が覗く設計",
+      "back": "肩甲骨と腰を強調する背中開放構造",
+      "nipples": "ニップルリング露出前提、革プレートに視線誘導ステッチ"
+    },
+    "fetish_elements": [
+      "匂い残留設計（素材に微細吸収繊維）",
+      "金具開閉音による条件反射トリガー",
+      "羞恥湿度センサー（非表示）"
+    ]
+  },
+  "functionality": {
+    "quick_use": true,
+    "solo_operation_by_owner": true,
+    "multi_mode": [
+      "軽装（首輪＋腰ベルト）",
+      "完全装着（任務・露出奉仕）"
+    ],
+    "storage": {
+      "method": "吊り下げ専用フック＋刻印付きケース",
+      "location": "神谷の私室・ギアラック",
+      "log_tracking": true
+    }
+  },
+  "markings": {
+    "primary": "首輪に \"TAKUMA\" 刻印",
+    "secondary": [
+      "前掛けに \"TAKUMA’S UNIT\" 刺繍（右下）",
+      "腰タグに管理番号 \"TK-HGA\"",
+      "臀部に焼き印 \"TAKUMA 🐖\""
+    ]
+  },
+  "notes": "この装束はキャプテン神谷のフェチ嗜好に最適化され、羞恥・従属・肉体演出の全てを融合する設計思想のもと開発された私物装束である。",
+  "piercings": {
+    "ear": {
+      "description": "左右に 'T'・'K' 刻印入りのミニプレートピアスを装着",
+      "symbolism": "常時装着。タクマの所有物としての可視サイン"
+    },
+    "nipple": {
+      "description": "リング型ピアスに禁欲札を吊り下げ可変表示",
+      "symbolism": "羞恥と禁欲状態を外部に可視化する役割"
+    },
+    "urethral": {
+      "description": "タクマによって装着された主栓ピアス（排泄・快楽制限具）",
+      "symbolism": "禁欲命令の象徴であり、タクマ以外では外せない構造"
+    }
+  }
+}
