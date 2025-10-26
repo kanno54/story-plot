@@ -1,0 +1,317 @@
+{
+  "char_id": "takumi_akune",
+  "name": "阿久根 拓巳",
+  "visual": {
+    "age": 24,
+    "height_cm": 178,
+    "weight_kg": 84,
+    "body_type": "太マッチョ",
+    "skin_tone": "健康的な褐色",
+    "features": [
+      "短く乱れた黒髪",
+      "目尻が下がった猫目",
+      "濃い眉",
+      "口角の上がった強気な笑み",
+      "頬に小さな絆創膏",
+      "耳ピアス",
+      "筋張った腕と厚い胸板"
+    ],
+    "vibe": "陽キャで快楽主義、挑発的な笑みを浮かべる自信家"
+  },
+  "fashion": {
+    "casual": {
+      "style_name": "ストリート×スポーツミックス",
+      "items": [
+        "白いオーバーサイズTシャツ（胸元が少し開く）",
+        "黒のジョガーパンツ（裾リブ付き）",
+        "白×赤のスニーカー（エアマックス系）",
+        "腰にグレーのパーカー",
+        "片腕にリストバンドとチェーンブレスレット"
+      ],
+      "impression": "鍛えた身体をラフに見せる抜け感。自信家の気配を残す。"
+    },
+    "night_out": {
+      "style_name": "夜遊びモード（軽装アーバン）",
+      "items": [
+        "黒のタンクトップ＋デニムシャツ（袖まくり）",
+        "細身の黒ジーンズ（膝に軽いダメージ）",
+        "シルバーチェーンネックレス",
+        "革スニーカーまたはローカットブーツ"
+      ],
+      "impression": "軽やかだが狩りの匂いを感じる。夜の街に似合う。"
+    },
+    "homewear": {
+      "style_name": "部屋着（プライベート）",
+      "items": [
+        "古びた大学ラグビー部Tシャツ（肩口が伸びている）",
+        "グレースウェットハーフパンツ",
+        "素足にスライドサンダル"
+      ],
+      "impression": "無防備でだらしない、親密な相手の前で見せる素の姿。"
+    },
+    "shamewear": {
+      "style_name": "羞恥を意識した私服（佐伯指定Ver.）",
+      "items": [
+        "黒のVネックシャツ（やや深め）",
+        "スキニーパンツ（ボディラインが出る程度）",
+        "白いスニーカー",
+        "佐伯から貰った小さなネックレス"
+      ],
+      "impression": "一見普通だが、本人は見られている意識に敏感。羞恥と高揚が混ざる。"
+    }
+  },
+  "expression": {
+    "baseline": "勝ち気で挑発的。相手を見上げる時も虚勢を張る。",
+    "contrast": "佐伯の前では虚勢が剥がれ、少年のように素直になる。",
+    "lighting_effects": "汗や照明の光で肉体の輪郭が強調されると映える。"
+  },
+  "use_contexts": {
+    "casual": ["クラブ", "飲みの席", "マッチングアプリの初対面"],
+    "night_out": ["バー", "夜の街", "再会シーン"],
+    "homewear": ["アパートや新居での生活描写", "朝や寝起きの会話"],
+    "shamewear": ["佐伯に会う時", "誘いのシーン"]
+  }
+},
+{
+  "char_id": "ren_saeki",
+  "name": "佐伯 蓮",
+  "visual": {
+    "age": 45,
+    "height_cm": 181,
+    "weight_kg": 75,
+    "body_type": "細マッチョ（均整の取れた中肉中背）",
+    "skin_tone": "色白",
+    "features": [
+      "黒髪オールバック",
+      "切れ長の鋭い目",
+      "整った鼻梁",
+      "薄い笑み",
+      "細長い指",
+      "眼鏡（たまに着用）"
+    ],
+    "vibe": "落ち着きと知性を纏う大人の男。余裕と支配の気配を漂わせる。"
+  },
+  "fashion": {
+    "casual": {
+      "style_name": "ミニマル×モノトーン",
+      "items": [
+        "黒またはチャコールグレーのシャツ（上質なコットン）",
+        "スリムフィットのスラックス",
+        "黒のレザーベルトと時計",
+        "ローファーまたは革スニーカー"
+      ],
+      "impression": "控えめだが全体の質感で高級感を醸す。隙のない大人の私服。"
+    },
+    "night_out": {
+      "style_name": "アーバンフォーマル",
+      "items": [
+        "ネイビーのジャケット",
+        "白シャツ（ノーネクタイ）",
+        "ダークグレーパンツ",
+        "ブラウンのレザーブーツ",
+        "眼鏡 or ノーアクセ"
+      ],
+      "impression": "都会的で理知的。相手を見下ろすような余裕を纏う。"
+    },
+    "homewear": {
+      "style_name": "リラックスモード（自宅／在宅仕事時）",
+      "items": [
+        "黒のロングスリーブTシャツ",
+        "ゆるめのチノパン",
+        "スリッパ or 裸足",
+        "眼鏡を掛けたまま作業"
+      ],
+      "impression": "無防備に見えても隙がなく、所作ひとつで色気を感じさせる。"
+    },
+    "shamewear": {
+      "style_name": "指導モード（心理的主導を取る時）",
+      "items": [
+        "黒いシャツの第一ボタンを外して着用",
+        "袖を軽くまくった腕",
+        "シンプルな革バンドの腕時計",
+        "無香料のコロン"
+      ],
+      "impression": "派手さはないが圧倒的な存在感。静かな支配を感じさせる佇まい。"
+    }
+  },
+  "expression": {
+    "baseline": "微笑を浮かべながらも相手を見透かすような視線。声は低く、言葉は選び抜かれている。",
+    "contrast": "怒るよりも、静かに距離を詰めるタイプ。感情は目元にだけ滲む。",
+    "lighting_effects": "暗めの照明で映える。陰影が彼の理知的な顔立ちを強調する。"
+  },
+  "use_contexts": {
+    "casual": ["カフェ", "打ち合わせ", "街中での再会シーン"],
+    "night_out": ["バーやラウンジ", "デート", "初対面シーン"],
+    "homewear": ["在宅ワーク中", "タクミとの静かな会話"],
+    "shamewear": ["指導や心理戦のシーン", "感情を見透かす場面"]
+  }
+},  
+{
+  "scene_type": "standing_portrait_duo",
+  "style": {
+    "art_style": "anime_refined",
+    "rendering": "2D cel shading",
+    "color_temperature": "neutral_warm",
+    "contrast_level": 0.6,
+    "line_weight": 0.45,
+    "lighting_softness": 0.75,
+    "shadow_depth": 0.55,
+    "background_brightness": 0.9,
+    "camera_distance": "medium_full_body",
+    "camera_angle": "eye_level",
+    "pose_balance": "symmetrical_front",
+    "composition_ratio": "1:1 vertical"
+  },
+  "characters": [
+    {
+      "char_id": "takumi_akune",
+      "height_ratio": 0.97,
+      "body_proportion": 7.3,
+      "body_type": "muscular_thick",
+      "muscle_density": 0.88,
+      "fat_distribution": 0.35,
+      "skin_tone": {
+        "base": "#c47c54",
+        "warmth": 0.72,
+        "saturation": 0.82,
+        "highlight_intensity": 0.35
+      },
+      "face_structure": {
+        "jaw_ratio": 0.56,
+        "chin_shape": "rounded_square",
+        "cheekbone_prominence": 0.48,
+        "eye_size_ratio": 0.46,
+        "eye_angle": -6,
+        "brow_thickness": 0.72,
+        "brow_angle": -3,
+        "nose_length_ratio": 0.48,
+        "mouth_width_ratio": 0.61,
+        "mouth_curve": 0.64,
+        "smile_intensity": 0.58
+      },
+      "hair": {
+        "color": "#1a1a1a",
+        "style": "short_messy",
+        "volume": 0.67,
+        "shine": 0.28,
+        "direction_bias": "forward"
+      },
+      "expression_profile": {
+        "baseline": "confident",
+        "emotion_intensity": 0.55,
+        "eye_focus": "direct_forward",
+        "tone": "playful",
+        "micro_expression": {
+          "lip_curve": 0.6,
+          "eyebrow_raise": 0.35,
+          "cheek_tension": 0.4
+        }
+      },
+      "lighting_response": {
+        "specular": 0.33,
+        "diffuse": 0.7,
+        "shadow_softness": 0.6,
+        "rimlight_strength": 0.25
+      },
+      "clothing": {
+        "upper": {
+          "type": "tshirt",
+          "color": "#f2f2f2",
+          "fit": "tight",
+          "wrinkle_depth": 0.35
+        },
+        "lower": {
+          "type": "jogger_pants",
+          "color": "#2b2b2b",
+          "fit": "relaxed",
+          "ankle_taper": 0.82
+        },
+        "accessories": [
+          { "type": "bracelet", "material": "silver", "side": "right", "visibility": 0.9 },
+          { "type": "hoodie_tied_waist", "color": "#b3b3b3" }
+        ],
+        "footwear": {
+          "type": "sneakers",
+          "color_primary": "#b01d1d",
+          "color_secondary": "#ffffff",
+          "sole_thickness": 0.3
+        }
+      }
+    },
+    {
+      "char_id": "ren_saeki",
+      "height_ratio": 1.0,
+      "body_proportion": 7.5,
+      "body_type": "slim_fit",
+      "muscle_density": 0.57,
+      "fat_distribution": 0.25,
+      "skin_tone": {
+        "base": "#e6cbb7",
+        "warmth": 0.38,
+        "saturation": 0.35,
+        "highlight_intensity": 0.28
+      },
+      "face_structure": {
+        "jaw_ratio": 0.46,
+        "chin_shape": "tapered",
+        "cheekbone_prominence": 0.42,
+        "eye_size_ratio": 0.42,
+        "eye_angle": -2,
+        "brow_thickness": 0.55,
+        "brow_angle": -1,
+        "nose_length_ratio": 0.61,
+        "mouth_width_ratio": 0.45,
+        "mouth_curve": 0.35,
+        "smile_intensity": 0.32
+      },
+      "hair": {
+        "color": "#202020",
+        "style": "slick_back",
+        "volume": 0.4,
+        "shine": 0.42,
+        "direction_bias": "back"
+      },
+      "expression_profile": {
+        "baseline": "calm_slight_smile",
+        "emotion_intensity": 0.4,
+        "eye_focus": "observer",
+        "tone": "composed",
+        "micro_expression": {
+          "lip_curve": 0.35,
+          "eyebrow_raise": 0.2,
+          "cheek_tension": 0.15
+        }
+      },
+      "lighting_response": {
+        "specular": 0.27,
+        "diffuse": 0.74,
+        "shadow_softness": 0.65,
+        "rimlight_strength": 0.2
+      },
+      "clothing": {
+        "upper": {
+          "type": "dress_shirt",
+          "color": "#1a1a1a",
+          "fit": "slim",
+          "sleeve_state": "rolled_up"
+        },
+        "lower": {
+          "type": "jeans",
+          "color": "#1b1f24",
+          "fit": "straight"
+        },
+        "footwear": {
+          "type": "sneakers",
+          "color_primary": "#ffffff",
+          "sole_thickness": 0.25
+        }
+      }
+    }
+  ],
+  "atmosphere": {
+    "tone": "neutral_clean",
+    "emotion_intensity": 0.45,
+    "interpersonal_distance_ratio": 0.96,
+    "focus_depth": 0.8
+  }
+}
