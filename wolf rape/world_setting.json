@@ -1,0 +1,52 @@
+{
+  "world_setting": {
+    "category": "beastman_regulation",
+    "title": "獣人の制度的扱いと社会的認識",
+    "origin": {
+      "description": "獣人は特定地域で稀に発生する環境性突然変異種。遺伝ではなく自然発生的に現れる人型変異体とされ、出生時は人間とほぼ同じ。",
+      "classification": "獣性優位化症候群（Bestialis Promotus）",
+      "development": "成長とともに耳・手足・感覚器に動物的特徴が発現する。"
+    },
+    "legal_status": {
+      "classification": "特定種制御法に基づく管理対象",
+      "rights": "限定的な存在権はあるが市民権は付与されない",
+      "categories": {
+        "managed": "登録済個体（施設運用 or 私的管理）",
+        "unmanaged": "登録拒否／野良個体 → 捕獲・回収の対象"
+      },
+      "handler_rights": {
+        "capture_rights": "危険個体対応資格者は捕縛・運用移行が可能",
+        "private_transfer": "管理個体は資格者に譲渡可能（制御報告義務あり）"
+      }
+    },
+    "social_perception": {
+      "public_view": "人間に近いが不安定な存在。恐怖と偏見が先行しやすい。",
+      "violence_misconception": "性加害的獣人は極めて稀だが、噂や過去例によって過剰に恐れられている。",
+      "village_attitude": ""厄介ごとは外注"が基本方針。責任や倫理には踏み込まない。"
+    },
+    "management_system": {
+      "types": {
+        "public_facility": {
+          "description": "都市部では保護・矯正施設で収容され、労務教育を受ける。",
+          "exit_condition": "適性ありと判断されれば一部労務への解放あり（制限付き）"
+        },
+        "private_control": {
+          "description": "資格者による私的管理。主に辺境地や小規模自治圏に許可されている。",
+          "conditions": [
+            "制御報告義務（月次・事件時）",
+            "逃亡・暴走時の責任は管理者に帰属"
+          ],
+          "actuality": "実態は飼育・奉仕目的での半ペット運用が主流。制度は形骸化。"
+        }
+      }
+    },
+    "story_context": {
+      "unique_rules": {
+        "violence_frequency": "性加害的獣人はごく少数であり、特異事例に限られる。",
+        "hunter_motivation": "ジードのようなハンターは"正義"ではなく"合法的ペット獲得"の好機として行動する。",
+        "externalization": "村は自ら手を汚さず、ハンターに処理を委ねて安心を得る構図。"
+      },
+      "impact_on_story": "主人公ラザルは"希少かつ厄介なケース"として扱われ、合法的にジードに譲渡される。制度はジードにとっての隠れ蓑であり、物語の皮肉な背景となる。"
+    }
+  }
+}
