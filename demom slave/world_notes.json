@@ -1,0 +1,127 @@
+{
+"world_rule":[
+{
+  "race_id": "demonkin_core",
+  "race_name": "悪魔種族（デーモン）",
+  "summary": "精神生命体として存在し、現世の供物を媒体として受肉する存在。直接の子孫を残すことはできないが、他種と交わることで混血種を残す。",
+  "origin": {
+    "type": "精神生命体",
+    "existence": "非物質的な純粋精神",
+    "materialization": {
+      "method": "供物による受肉",
+      "notes": "強い意志・欲望を帯びた供物を通じて一時的に物質界に姿を現す。"
+    },
+    "lifespan": "一代限り。実体化した個体は繁殖不能"
+  },
+  "reproduction": {
+    "can_breed": false,
+    "hybridization": {
+      "enabled": true,
+      "method": "他種族との交合による混血生成",
+      "dominant_race": "人間",
+      "hybrid_species": "デモンヒューマン"
+    },
+    "spiritual_conception": {
+      "enabled": true,
+      "desc": "肉体ではなく精神的な繋がりを通して後継個体が発生する。性別や形態を問わない。"
+    }
+  },
+  "main_hybrid_species": {
+    "species_id": "demon_human",
+    "name": "デモンヒューマン",
+    "description": "悪魔と人間の混血。最もポピュラーな混血種。",
+    "traits": {
+      "lifespan": "長命（200年以上）",
+      "fertility": "極端に低い",
+      "libido": "個体差あり。平均的には低め",
+      "gender": "男女の区別はあるが精神の影響で可変的",
+      "body_malleability": "精神状態により肉体が変化することがある"
+    },
+    "social_norms": {
+      "marriage": ["一夫多妻", "一妻多夫", "非固定婚"],
+      "sexual_culture": "生殖が希少であるため、性交渉自体は奨励・祝福される。",
+      "taboos": "近親交配に対する禁忌概念は存在しない。肉体遺伝ではなく精神継承が本質とされる。",
+      "gender_expression": "風俗文化的にも性別移行は一般的であり、法的制約は存在しない"
+    }
+  },
+  "ethics": {
+    "human_contrast": "人間的な倫理観（近親相姦、性役割、性抑制）は一切通用しない",
+    "cultural_priority": "精神の連続性と意志の強さこそが血統を定義する"
+  },
+  "notable_implications": {
+    "descendants": "精神的な繋がりによって生まれるため、実際に肉体的性交渉を行った性別は問わない（例：男同士でも子が宿る）",
+    "ritual_compatibility": "受肉・受精・精神同調が儀式的に区別されず一体化している世界観が想定される"
+  }
+},
+{
+  "tribe_id": "border_demon_clan",
+  "name": "辺境悪魔部族（仮）",
+  "species": "デモンヒューマン（悪魔×人間の混血）",
+  "structure": {
+    "governance": "合議制と血統支配の混合型",
+    "leadership": "部族長（魔的因子の濃さ＋精神耐性が選定基準）",
+    "succession": {
+      "method": "精神継承儀（血族の精神接続による後継権限移譲）",
+      "notes": "実子でなくてもよい。『継承に耐えた者』が後継者とされる"
+    }
+  },
+  "gender_culture": {
+    "roles": "明確な役割分担なし。全ては精神の構造と個体特性による",
+    "fluidity": true,
+    "transformability": "精神的に女性／男性として自己認識し続けることで、肉体が変化する例多数"
+  },
+  "sexual_culture": {
+    "pairing_system": "自由婚／一夫多妻／一妻多夫／複数契約制",
+    "reproduction_norm": "精神的結びつきによる受胎が主。肉体行為は儀式の一部",
+    "social_attitude": "性行為は祝祭的・儀礼的に奨励される。羞恥文化は存在しない",
+    "fertility_issue": {
+      "awareness": "極めて低い出生率への自覚あり",
+      "response": "繁殖意思がある者は部族の資源を優先配分される"
+    }
+  },
+  "rituals": {
+    "bonding_rite": {
+      "name": "魂紐（こんこう）",
+      "desc": "精神を同調させることで同一属性の共鳴を起こす。主従・婚姻・養子契約などに用いられる"
+    },
+    "inheritance_rite": {
+      "name": "継魂儀（けいこんぎ）",
+      "desc": "後継者候補が部族長の精神片を受け入れ、発狂せずに融合できれば継承が完了する"
+    },
+    "催精の儀": {
+      "desc": "受胎可能期間を見極めるための性行為。誰が行ってもよく、性別は問わない"
+    }
+  },
+  "ethics_and_taboo": {
+    "taboos": [],
+    "notes": "近親性交／同性妊娠／年齢差／多重交合など、倫理的禁忌は一切存在しない。精神構造の崩壊だけが唯一の『罪』とされる"
+  },
+  "material_culture": {
+    "clothing": {
+      "default": "精神構造に干渉しない緩やかな衣服。装飾より素材感が重視される",
+      "ritual": "透過布や香染め布など、感覚遮断・精神投影を促す衣服が用いられる"
+    },
+    "housing": {
+      "structure": "石壁＋布構造の半地下住居。遮蔽と精神安定が重要視される",
+      "features": ["遮光", "香炉", "接触避けの結界具"]
+    },
+    "symbols": {
+      "items": [
+        { "name": "緋色の紐", "meaning": "精神的誓約" },
+        { "name": "黒の腕輪", "meaning": "血族の証" },
+        { "name": "香草札", "meaning": "接触可否を示す許可票" }
+      ]
+    }
+  },
+  "modern_reforms": {
+    "initiated_by": "現部族長マクト",
+    "goals": [
+      "強制性交による継承の廃止",
+      "記録主義と命令札による合意支配の確立",
+      "接触制御による精神暴発の防止"
+    ],
+    "resistance": "保守派は精神支配こそ血統と主張し、一部では今も伝統的性交儀が根強く残る"
+  }
+}       
+]
+ }  

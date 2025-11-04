@@ -1,0 +1,101 @@
+{
+  "gear_set": [
+    {
+      "id": "D1",
+      "name": "微香布",
+      "effect_type": "trigger_mitigation",
+      "area": [
+        "首",
+        "胸元"
+      ],
+      "effect": "香気に対する精神反応を拡散・緩和"
+    },
+    {
+      "id": "D2",
+      "name": "静鈴紐",
+      "effect_type": "trigger_mitigation",
+      "area": [
+        "腰"
+      ],
+      "effect": "心拍上昇時に鈴が鳴り、自覚を促す"
+    },
+    {
+      "id": "D3",
+      "name": "反響札",
+      "effect_type": "trigger_mitigation",
+      "area": [
+        "耳裏",
+        "首筋"
+      ],
+      "effect": "声の到達を遅延させ、即時服従反応を抑制"
+    },
+    {
+      "id": "D4",
+      "name": "包布環",
+      "effect_type": "punishment_relief",
+      "area": [
+        "陰部",
+        "尻周辺"
+      ],
+      "effect": "疼きを包み込んで集中を緩和"
+    },
+    {
+      "id": "D5",
+      "name": "拘滑帯",
+      "effect_type": "punishment_relief",
+      "area": [
+        "太腿",
+        "下腹部"
+      ],
+      "effect": "香りの広がる滑布で快感をぼかす"
+    },
+    {
+      "id": "D6",
+      "name": "視界マスク",
+      "effect_type": "trigger_mitigation",
+      "area": [
+        "目元",
+        "額"
+      ],
+      "effect": "視認を曖昧にし、視線トリガーを軽減"
+    },
+    {
+      "id": "D7",
+      "name": "鼻腔遮断札",
+      "effect_type": "trigger_mitigation",
+      "area": [
+        "鼻"
+      ],
+      "effect": "吸気時のフェロモン認識を遮断"
+    },
+    {
+      "id": "D8",
+      "name": "口封環",
+      "effect_type": "trigger_mitigation",
+      "area": [
+        "口内",
+        "舌"
+      ],
+      "effect": "唾液や味覚の性感反射を抑える"
+    },
+    {
+      "id": "D9",
+      "name": "乳首鎮圧蓋",
+      "effect_type": "punishment_relief",
+      "area": [
+        "乳首",
+        "胸部"
+      ],
+      "effect": "乳首への疼きを抑える圧力板"
+    },
+    {
+      "id": "D10",
+      "name": "足裏刺激板",
+      "effect_type": "punishment_relief",
+      "area": [
+        "足裏"
+      ],
+      "effect": "足裏から疼きを分散する刺激構造"
+    }
+  ]
+}
