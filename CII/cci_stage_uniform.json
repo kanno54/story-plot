@@ -1,0 +1,85 @@
+{
+  "stage_uniform": {
+    "id": "cci_stage_uniform_v1",
+    "description": "CCIステージ用羞恥特化コスチューム一式。観衆向けに露出・密着・透けを前提に設計され、ギア装着を前提とする。",
+    "components": {
+      "upper": {
+        "type": "deep_v_tanktop",
+        "color": "white",
+        "fabric": "ultra_thin_stretch",
+        "features": [
+          "胸元が深くV字開きで乳頭の上部まで露出",
+          "汗で透ける薄さ",
+          "肩紐が細く胸筋の丸みを強調",
+          "軽負荷耐性あり（引き裂きに弱い）"
+        ]
+      },
+      "lower": {
+        "type": "tight_short_pants",
+        "color": "black_gloss",
+        "fabric": "compression_fit",
+        "features": [
+          "恥部の形状が浮き出る密着感",
+          "尻部が半分露出する浅めカット",
+          "両サイドにギア用マイクロスリット",
+          "前部に補強ライン（逆に強調される）"
+        ]
+      },
+      "accessories": {
+        "ankle_id_tag": {
+          "type": "anklet",
+          "material": "reinforced_resin",
+          "function": "ID_signal_and_tracking"
+        },
+        "knee_band": {
+          "type": "form_correction_band",
+          "function": "姿勢矯正・スクワット角度ログ取得",
+          "settings": ["low", "medium", "high"]
+        },
+        "wrist_bands": {
+          "type": "bio_sensor_bands",
+          "functions": [
+            "心拍ログ",
+            "羞恥反応指数",
+            "興奮度リアルタイム送信"
+          ]
+        }
+      }
+    },
+
+    "per_player_adjustment": {
+      "P1_ichikawa": {
+        "fit": "small_loose_on_chest",
+        "notes": [
+          "胸板が薄いためタンクトップが不自然に余る",
+          "ショートパンツはやや余裕があり動くたび落ちそう",
+          "本人は極度に羞恥反応が強く、衣装自体に怯える"
+        ]
+      },
+      "P2_fuyuki": {
+        "fit": "compressed_tight",
+        "notes": [
+          "胸筋と肩の盛り上がりでタンクトップが常にパツパツ",
+          "乳首が常に透け気味で観客人気が高い",
+          "太腿が太すぎてショートパンツがめくれ上がりやすい"
+        ]
+      },
+      "P3_bono": {
+        "fit": "almost_rip",
+        "notes": [
+          "怒りや動きが激しいと肩紐が切れる可能性あり",
+          "下半身が太すぎてサイドスリットが広がりやすい",
+          "衣装の羞恥より"縛られる"ことの方が嫌で暴れる"
+        ]
+      },
+      "P4_kanou": {
+        "fit": "embarrassingly_tight_but_clean",
+        "notes": [
+          "全体的にサイズがわずかに小さく、胸も尻も形が露出しやすい",
+          "本人の美意識と衣装のチープさが乖離して内心かなり屈辱",
+          "堂々と着こなすが、興奮度ログが上がると余計に恥ずかしい構造"
+        ]
+      }
+    }
+  }
+}

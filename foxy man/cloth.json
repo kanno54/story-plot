@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "character_id": "domestic_valet_01",
+  "dress_code": {
+    "policy": "フォーマル寄りの作業服（静音・清潔・安全・機動性）",
+    "formality_level": "smart_workwear",
+    "color_palette": ["charcoal_gray", "black", "white", "deep_navy"],
+    "seasonal_variants": true
+  },
+  "uniform_set": {
+    "base_layer": {
+      "item": "吸汗速乾インナーT",
+      "color": "white",
+      "material": "ポリエステル/コットン混",
+      "fit": "ジャスト",
+      "notes": "襟元はクルー／透け防止"
+    },
+    "top": {
+      "item": "ワークシャツ（スタンドカラー）",
+      "color": "charcoal_gray",
+      "material": "防しわストレッチツイル",
+      "fit": "レギュラー",
+      "features": ["胸ポケット×1（ペン仕切り）", "比翼仕立て（ボタン露出なし）"]
+    },
+    "outer_optional": {
+      "item": "薄手カーディガン or ライトジャケット",
+      "color": "deep_navy",
+      "material": "ウール混 or ソフトシェル",
+      "use_case": "来客・室温低下時",
+      "closure": "隠しスナップ"
+    },
+    "bottom": {
+      "item": "テーパードパンツ",
+      "color": "black",
+      "material": "ストレッチツイル",
+      "fit": "アンクル丈、裾は擦音防止処理",
+      "pockets": ["サイド×2", "隠しコイン×1"]
+    },
+    "footwear": {
+      "item": "プレーントゥ・レザースリッポン",
+      "color": "black",
+      "sole": "ラバー（防滑・静音）",
+      "maintenance": "毎夕ブラッシング＋週1クリーム"
+    },
+    "belt": {
+      "item": "シンプルレザーベルト",
+      "color": "black",
+      "buckle": "艶消しシルバー（反射抑制）"
+    },
+    "apron_task_mode": {
+      "item": "ハーフエプロン",
+      "color": "charcoal_gray",
+      "material": "撥水キャンバス（軽量）",
+      "pockets": ["中央×1（クロス仕切り）"],
+      "use_case": ["清掃", "洗い物", "アイロン掛け", "靴磨き"]
+    },
+    "accessories": [
+      {"item": "布手袋（白）", "use_case": "貴重品・革製品取り扱い"},
+      {"item": "ミニ裁縫キット", "storage": "内ポケット"},
+      {"item": "キークリップ", "noise_control": "カバー付き"}
+    ],
+    "undergarments": {
+      "top": "白無地",
+      "bottom": "黒 or 濃紺（透け防止）",
+      "socks": "黒リブ（くるぶし上）"
+    },
+    "underwear": {
+      "top": "ひも状のニップルカバー",
+      "bottom": "黒のTバック",
+      "gear": "ボール状のアナルストッパー"
+    }
+  },
+  "seasonal_adjustments": {
+    "spring_autumn": ["長袖シャツ標準", "カーディガン併用"],
+    "summer": ["半袖ワークシャツ", "吸汗速乾性重視", "メッシュインソール"],
+    "winter": ["薄手ヒートインナー", "ライトジャケット常用", "防滑ソール強化"]
+  },
+  "safety_and_silence": {
+    "noise_suppression": ["比翼仕立て", "ラバーソール", "キークリップカバー"],
+    "safety": ["耐洗剤性素材", "裾の引っ掛かり防止"]
+  },
+  "care_and_maintenance": {
+    "laundry": "ネット使用・弱洗い・陰干し・低温アイロン",
+    "rotation": "シャツ3枚・パンツ2本・エプロン2枚をローテーション",
+    "inspection": "毎朝ほつれ確認→必要時その場補修"
+  },
+  "prohibitions": [
+    "派手なロゴ・装飾",
+    "強い香水",
+    "金属音の出るアクセサリー"
+  ],
+  "notes": "来客時はライトジャケットを重ね、エプロンは外す。作業時はエプロン着用で衣類保護を優先。"
+}
