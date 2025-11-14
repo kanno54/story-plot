@@ -1,0 +1,46 @@
+{
+  "name": "女王様",
+  "age_range": "30代後半〜40代前半",
+  "gender": "female",
+  "occupation": "投資顧問／経営コンサルタント",
+  "residence": "高台の低層ペントハウス（静音設計）",
+  "personality": {
+    "dominance": "観察支配型",
+    "communication": "寡黙、指示は最小限、間と視線で操る",
+    "aesthetic": "羞恥・壊れかけの反応に美を感じる",
+    "affection": "所有と使用を明確に分離。観賞＝愛"
+  },
+  "relationship_with_kanata": {
+    "start": "量販店で出会い、所作と表情に惹かれて個人契約へ",
+    "style": "ギア責め＋鏡＋無音の羞恥演出。性的接触は少ない",
+    "breakup": "破局ではなく譲渡。自分は観賞者として満足している",
+    "after": "QRを通じて奏太の実演映像を購買・視聴し続けている",
+    "influence_on_qr": {
+      "initial_recommendation": true,
+      "rank_intervention": {
+        "base_rank": "B",
+        "allowed": true,
+        "preferred_performance_ranks": ["C", "E"],
+        "notes": "羞恥反応の表現密度が高まるため、本人と協議の上でC/Eランクでも実演されている"
+      },
+      "viewer_id": "VIP15891",
+      "remark": "奏太のC/Eランク映像のみ視聴契約中。昇格映像には興味を示さない"
+    }
+  },
+  "quotes": [
+    "壊れそうな顔のほうが、好き",
+    "出世なんてしなくていい。観ているから",
+    "使うのは他の人でいいの。私は観たいだけ",
+    "CやEのあなたが一番綺麗"
+  ],
+  "qr_behavior": {
+    "preferred_products": [
+      "ミルクロール・レーン",
+      "シャドウリング・スリム",
+      "ディグプラグ・エッジ",
+      "フィットソール∞"
+    ],
+    "usage": "本人使用ではなく、奏太に使用させて反応を観賞",
+    "viewing_habit": "無音／夜間再生／全身鏡の前でワイングラス片手に観賞"
+  }
+}

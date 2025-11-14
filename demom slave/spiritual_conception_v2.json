@@ -1,0 +1,189 @@
+{
+"model_name": "spiritual_conception_v2",
+"summary": "精神受胎→肉体妊娠（1年）→休眠（3年）の4年サイクル。受胎は精神同調により発生し、定着をN-Setで選択的に阻止可能。受胎時は性位相反転（S-phase）により一時的女性化が起き、産後3年かけて緩やかに元の性位相へ復帰する。",
+"version": "2025-11-05",
+"reproduction_model": {
+"cycle_years": 4,
+"pregnancy_years": 1,
+"dormancy_years": 3,
+"conception_type": "spiritual",
+"stages": [
+{
+"id": "sync",
+"name": "同調相",
+"desc": "マクトと対象が強度の精神同調を起こし、魂紐が形成される。"
+},
+{
+"id": "seed",
+"name": "結縁相（胎核形成）",
+"desc": "精神胎座に“胎核（スピリット・シード）”が生じる。まだ肉体妊娠ではない。"
+},
+{
+"id": "fixation",
+"name": "定着相（妊娠移行）",
+"desc": "胎核が肉体側へ定着して妊娠へ移行。以降は通常の妊娠経過（性別不問／器官可塑）。"
+}
+],
+"s_phase": {
+"name": "性位相反転（S-phase）",
+"trigger": "胎核の成立（結縁相）および定着相への移行",
+"effects": [
+"骨盤帯の可動域拡張",
+"内臓レイアウトの微再編",
+"内分泌プロファイルの反転（雌性様ホルモン優位）",
+"皮膚・乳腺の一時活性化",
+"声帯の軽微な変調"
+],
+"reversibility": "可逆。出産後の休眠期間（3年）で漸減し元の性位相に回帰。",
+"risk_notes": "復帰途中で強同調が起きると位相重複により不安定化（情動暴発・体調破綻）のリスク。"
+},
+"dormancy_rules": {
+"ban_resync_months": 36,
+"policy": "産後36か月は再同調を避ける緩やかな戒律（禁触・禁香・禁声の段階運用）。",
+"goal": "S-phaseの自然復帰と内分泌の再同調を守る。"
+},
+"wet_nurse_system": {
+"ages": {
+"phase0_3": "乳母中心（簾越し短時間接触のみ）",
+"phase4_9": "集団育成（羞恥＝美徳の初等訓練）",
+"adult_rite": "10歳で成人謁見（初の正面同調試験）"
+},
+"rationale": "過度同調の固定化を避け、精神・身体の安定を図るための制度。"
+}
+},
+"ritual_periods": [
+{
+"id": "white_cloth",
+"jp_name": "白布期",
+"months_start": 0,
+"months_end": 12,
+"rules": ["実親は簾越し接触のみ", "香・声は変調器経由", "N-Setの使用は原則不要（強同調の場を作らない）"]
+},
+{
+"id": "scarlet_cord",
+"jp_name": "緋紐期",
+"months_start": 12,
+"months_end": 24,
+"rules": ["短時間接触可", "N-Setの『リバース・ガード』モード必須", "香気相の半拍ズラしを維持"]
+},
+{
+"id": "black_band",
+"jp_name": "黒帯期",
+"months_start": 24,
+"months_end": 36,
+"rules": ["儀礼接触は許可制", "N-Set推奨（強同調兆候時は必須）"]
+},
+{
+"id": "unlock",
+"jp_name": "解禁",
+"months_start": 36,
+"months_end": 999,
+"rules": ["完全復帰", "定着の可否は『定着許可儀』で選ぶ（N-Set非装着または解除手順を実施）"]
+}
+],
+"gear": {
+"policy": {
+"daily_control": "既存のD1〜D6は日常の抑制・羞恥可視化用として継続運用。",
+"conception_control": "受胎制御（未定着化）は接触時限定の専用N-Setで行う（常時装着はしない）。",
+"common_rule": "マクトと直接触れる儀では全員が同じ一式プロトコルに従う。"
+},
+"n_set": {
+"set_name": "Null-Conception Set（N-Set）",
+"purpose": "胎核の『定着』に必要な条件式だけを崩し、官能反応は残したまま未定着化を維持する。",
+"components": [
+{
+"id": "N1",
+"name": "位相冠（Phase Circlet）",
+"area": ["頭部（額・側頭）"],
+"function": "脳波・精神波の同調をリアルタイム検出し、微弱なカウンタ位相（位相ディザー）を注入して上位中枢の同期を分散。",
+"notes": "視線・想起トリガー由来の同調ピークを丸める。"
+},
+{
+"id": "N2",
+"name": "逆相襟（Antiphase Collar）",
+"area": ["頸部〜鎖骨帯"],
+"function": "皮膚香・呼気・鼓動に追随する『香り相』を半拍ズラし、嗅覚経路の同調を緩める。",
+"notes": "既存の微香布とは別系統。位相制御を主眼とする。"
+},
+{
+"id": "N3",
+"name": "下腹帯コイル（Pelvic Field Belt）",
+"area": ["下腹部〜骨盤帯"],
+"function": "低出力場を形成し、胎核の『定着閾値』のみを上げる（疼きや接触感受は維持）。",
+"notes": "未定着化の主機。セッション終了で効果は消散。"
+}
+],
+"modes": [
+{
+"id": "contact_mode",
+"name": "接触モード",
+"use_case": "受胎を避けたい通常の接触儀。",
+"behavior": "N1/N2/N3が閾値直前で位相を微揺らし続け、定着条件を常にズラす。"
+},
+{
+"id": "reverse_guard",
+"name": "リバース・ガード",
+"use_case": "産後〜復帰期（S-phase余熱時）の安全接触。",
+"behavior": "S-phase再燃を抑えるよう位相ディザーを強め、香気相と骨盤場を保護。"
+},
+{
+"id": "failsafe",
+"name": "フェイルセーフ",
+"use_case": "急峻な同調の立ち上がり検知時。",
+"behavior": "N3が閾値を一時的に跳ね上げ、強制未定着に切替。"
+}
+],
+"protocol": {
+"calibration_sec": 60,
+"steps": [
+"キャリブレーション：N1が個体位相を測定し、N2/N3へ閾値を配布。",
+"接触開始：通常の触れ合い/対話。装置は裏方で位相ディザーを維持。",
+"クールダウン：N3→N2→N1の順に徐々に解く（3〜5分）。",
+"ログ記録：反応ピークと位相差分を研究記録へ自動保存。"
+],
+"safety": [
+"単回運用上限は30分を推奨（離人感・夢見感の軽微リスク）。",
+"日常の常用は禁止。『儀の時だけ』用いる。"
+]
+}
+}
+},
+"choice_of_conception": {
+"policy": "受胎は“選ぶもの”。",
+"allowance_rite": {
+"name": "定着許可儀",
+"desc": "N-Setを外す（または解除手順を踏む）ことで、胎核の定着を許可する儀式。",
+"requirements": ["合意の明文化", "記録板への記載", "立会人（記録役）"]
+},
+"default": "接触時はN-Set装着＝未定着化（避妊）。受胎を望む場合にのみ許可儀へ移行。"
+},
+"timeline_example": {
+"births": [
+{ "year": 0, "child": "メイル", "mother": "ライ" },
+{ "year": 4, "child": "ジュン", "mother": "ライ" },
+{ "year": 8, "child": "リク", "mother": "ライ" },
+{ "year": 14, "child": "ミカ", "mother": "ライ" }
+],
+"adult_audience": [
+{ "year": 10, "child": "メイル" },
+{ "year": 14, "child": "ジュン" },
+{ "year": 18, "child": "リク" },
+{ "year": 24, "child": "ミカ" }
+],
+"notes": "4年スパン（妊娠1＋休眠3）と10歳謁見が綺麗に噛み合う例。ジュンを対象とした人体実験を経てギアによる中和が確立し始めるも、事故によってミカが受胎する。この為、ミカだけ周期が２年ズレる"
+},
+"integration_guidance": {
+"world_notes.json": [
+"reproduction_model を追記（4年サイクル・S-phase・休眠規範）。",
+"乳母制度（wet_nurse_system）と成人謁見の接続を明文化。"
+],
+"family_core.json": [
+"家族内ルール：接触はN-Set前提、定着は『定着許可儀』で選ぶ、を追加。",
+"白布期/緋紐期/黒帯期/解禁の生活運用ルールを追加。"
+],
+"gear_definition.json": [
+"N-Set（N1/N2/N3）を新規カテゴリ『conception_control』として追加。",
+"既存D1〜D6は daily_control として用途区分を明記。"
+]
+}
+}
