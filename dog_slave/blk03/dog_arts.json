@@ -1,0 +1,105 @@
+{
+  "dog_arts": [
+    {
+      "id": "sit",
+      "name": "おすわり",
+      "purpose": "待機・準備姿勢として主への服従を示す。",
+      "base_pose": {
+        "type": "sitting",
+        "spine": "straight",
+        "arms": "down_or_on_floor",
+        "gaze": "downward_toward_master_feet"
+      },
+      "motions": [
+        "stay_still",
+        "present_chest",
+        "offer_paw_right",
+        "offer_paw_left"
+      ],
+      "commands": ["おすわり", "お手", "おかわり", "胸を張れ"],
+      "exposed_tokens": ["【E_pinchiku】"],
+      "notes": "前脚動作と胸張り動作が主となる基本芸。"
+    },
+    {
+      "id": "beg",
+      "name": "ちんちん",
+      "purpose": "欲求の可視化と従順姿勢を組み合わせた芸。",
+      "base_pose": {
+        "type": "kneeling_upright",
+        "arms": "front_paws_position",
+        "spine": "arched",
+        "pelvis": "forward"
+      },
+      "motions": [
+        "small_pelvis_thrust",
+        "rhythmic_waist_motion"
+      ],
+      "commands": ["ちんちん", "腰動かせ", "もっと"],
+      "exposed_tokens": ["【E_sochin】", "【E_ketsuman】", "【E_pinchiku】"],
+      "notes": "腰の前後モーションが特徴で、主の評価に左右される。"
+    },
+    {
+      "id": "down",
+      "name": "伏せ",
+      "purpose": "完全降伏の姿勢を取り、従順性を示す中核芸。",
+      "base_pose": {
+        "type": "belly_down",
+        "arms": "front_extended",
+        "hips": "slightly_raised"
+      },
+      "motions": [
+        "tail_wag",
+        "hip_sway_small"
+      ],
+      "commands": ["伏せ", "尻尾振れ"],
+      "exposed_tokens": ["【E_ketsuman】"],
+      "notes": "尻と尾の動きが主役となる芸。"
+    },
+    {
+      "id": "belly_up",
+      "name": "腹見せ",
+      "purpose": "全面開示による服従の最終形。五恥部の露出儀。",
+      "base_pose": {
+        "type": "supine",
+        "transition": "roll_over",
+        "arms": "relaxed",
+        "gaze": "upward"
+      },
+      "motions": [
+        "roll_over_right",
+        "roll_over_left",
+        "maintain_open_pose"
+      ],
+      "commands": ["腹見せ", "くるんしてみろ", "動くな"],
+      "exposed_tokens": [
+        "【E_pinchiku】",
+        "【E_sochin】",
+        "【E_ketsuman】",
+        "【E_butaban】",
+        "【E_kuchimanko】"
+      ],
+      "notes": "伏せ→横回転→仰向けの連続動作が特徴。"
+    },
+    {
+      "id": "lick",
+      "name": "ペロペロ",
+      "purpose": "舌による奉仕を中心とした芸。集中奉仕の象徴。",
+      "base_pose": {
+        "type": "all_fours",
+        "target": "bone_dildo"
+      },
+      "motions": [
+        "sniff",
+        "lick",
+        "hold_in_mouth",
+        "freeze_with_item",
+        "retrieve_and_return"
+      ],
+      "commands": ["ペロペロ", "咥えろ", "吐け", "取ってこい"],
+      "exposed_tokens": ["【E_kuchimanko】", "【E_butaban】"],
+      "notes": "骨状道具を用い、舌と口での奉仕芸に特化。"
+    }
+  ],
+  "version": "1.1_token_safe",
+  "remarks": "性的描写はすべてトークン化済み。動作・姿勢・犬性表現中心の安全仕様。"
+}
