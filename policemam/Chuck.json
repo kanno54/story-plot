@@ -1,0 +1,204 @@
+{
+  "char_name": "Chuck \"Beef\" Malone",
+  "aliases": [
+    "Beef",
+    "Officer Beef",
+    "Beefy Policeman",
+    "Sgt. Malone"
+  ],
+  "demographics": {
+    "age": 41,
+    "gender": "male",
+    "nationality": "American",
+    "ethnicity": "white (unspecified)",
+    "hometown": {
+      "name": "Glenwood",
+      "state": "Missouri",
+      "country": "USA",
+      "population_note": "small town (~10k)"
+    }
+  },
+  "roles": [
+    "corrupt small-town police sergeant",
+    "informal power broker within the department and local businesses",
+    "public-facing 'friendly neighborhood cop' with a hidden predatory side"
+  ],
+  "appearance": {
+    "height_cm": 182,
+    "weight_kg": 105,
+    "build": "stocky, muscular with a softening midsection; thick neck and broad chest",
+    "skin": "warm tan with faint freckles; outdoors-worn",
+    "face": "round face; heavy brows; smile that narrows eyes into lines; approachable at first glance",
+    "hair": "short cropped, slightly receding hairline; often looks freshly trimmed",
+    "eyes": "medium brown; watchful; the friendliness can switch off instantly",
+    "distinctive_marks": [
+      "old burn scar on the back of one hand",
+      "callused knuckles"
+    ],
+    "typical_outfit": [
+      "slightly rumpled police uniform worn with practiced confidence",
+      "tightened duty belt, worn leather",
+      "always wears a leather wristwatch even though it no longer works"
+    ],
+    "signature_props": [
+      "broken leather wristwatch",
+      "paper coffee cup (morning routine)",
+      "scuffed pocket notebook with pencil erasures"
+    ]
+  },
+  "personality": {
+    "surface": [
+      "big-brother warmth",
+      "affable, joking, disarming",
+      "protective toward 'locals' and kids"
+    ],
+    "core": [
+      "status-driven",
+      "control-seeking",
+      "lonely and approval-hungry",
+      "morally numbed by years of small compromises"
+    ],
+    "strengths": [
+      "reads people quickly",
+      "excellent at social leverage and favors",
+      "calm under everyday pressure",
+      "physically imposing"
+    ],
+    "flaws": [
+      "abuses discretion and authority",
+      "self-justifies everything as 'keeping order'",
+      "vindictive when challenged",
+      "addictive reliance on power and routine",
+      "cowardly around higher status when consequences appear"
+    ],
+    "fears": [
+      "becoming irrelevant / ignored",
+      "being exposed publicly",
+      "losing the badge (identity collapse)",
+      "solitude"
+    ],
+    "wants": [
+      "to be treated as indispensable",
+      "to keep the town's 'order' on his terms",
+      "to maintain his local legend even if it's built on rot"
+    ],
+    "contradictions": [
+      "can genuinely help vulnerable people, then exploit others the same day",
+      "seeks respect but earns fear and resentment",
+      "claims 'it's for the town' while protecting himself first"
+    ]
+  },
+  "speech_style": {
+    "tone": "folksy, confident, casually patronizing",
+    "tics": [
+      "calls younger officers 'kid'",
+      "uses paperwork as a minimizer of wrongdoing"
+    ],
+    "catchphrases": [
+      "It’s just paperwork, kid.",
+      "This town needs a strong hand."
+    ]
+  },
+  "background": {
+    "family": {
+      "father": "auto mechanic (working-class, pragmatic influence)",
+      "mother": "retail worker; died during his early training years",
+      "marital_status": "divorced",
+      "children": "one daughter living out of state with ex-wife"
+    },
+    "youth": [
+      "high school football lineman; learned that strength equals authority",
+      "early 'protector' identity admired by peers"
+    ],
+    "career_timeline": [
+      {
+        "age_range": "19-22",
+        "event": "police academy; mother's death; first exposure to institutional politics",
+        "impact": "idealism thinned; began equating obedience/upward loyalty with survival"
+      },
+      {
+        "age_range": "23-28",
+        "event": "new patrol officer; becomes popular 'local hero'",
+        "impact": "habit of discretionary leniency becomes a gateway to favors"
+      },
+      {
+        "age_range": "29-33",
+        "event": "enters local business circles; starts 'fixing' problems quietly; promoted",
+        "impact": "corruption normalizes as a 'system' and a 'service'"
+      },
+      {
+        "age_range": "34-37",
+        "event": "divorce; family leaves town",
+        "impact": "identity collapses into badge + local status; loneliness worsens"
+      },
+      {
+        "age_range": "38-41",
+        "event": "corruption becomes routine; department becomes dependent/afraid; enemies accumulate",
+        "impact": "moral numbness; paranoia; increasingly coercive behavior"
+      }
+    ]
+  },
+  "corruption_profile": {
+    "pattern": "small, frequent abuses that compound into systemic capture",
+    "typical_offenses": [
+      "selective enforcement (warnings for allies, tickets for targets)",
+      "quid-pro-quo favors with businesses",
+      "leveraging confidential info for leverage or money",
+      "paperwork manipulation (missing entries, 'lost' notes, altered logs)",
+      "using departmental resources as private protection for nightlife interests"
+    ],
+    "cover_story": "keeping the town running; 'everyone does it'; 'it’s just paperwork'",
+    "departmental_dynamic": {
+      "upward": "has leverage on superiors; feeds them plausible deniability",
+      "downward": "trains subordinates into the 'Beef way'; punishes dissent socially and professionally",
+      "lateral": "widely resented; avoided; considered untouchable"
+    }
+  },
+  "relationships": {
+    "superior_officer": {
+      "relation": "mutual protection pact",
+      "dynamic": "superior benefits from deniability; Beef benefits from cover"
+    },
+    "young_subordinate": {
+      "relation": "protege / potential whistleblower",
+      "dynamic": "loyalty mixed with fear and moral conflict"
+    },
+    "bar_owner_confidant": {
+      "relation": "information hub; emotional crutch",
+      "dynamic": "knows too much; could save or doom him depending on pressure"
+    },
+    "outsider_investigator": {
+      "relation": "threat",
+      "dynamic": "sees patterns others normalized; triggers escalation"
+    }
+  },
+  "story_hooks": {
+    "inciting_incident": "a vigilante 'citizen-arrest' streamer begins teasing an exposé (#BeefGate) and collecting proof",
+    "pressure_escalation": [
+      "leaks of small incidents that look harmless alone but damning together",
+      "superiors begin distancing; allies go quiet",
+      "public sentiment fractures: 'local hero' vs 'dirty cop'"
+    ],
+    "climax_setup": "streamer orchestrates a planned public confrontation and 'citizen arrest' designed for maximum live spectacle",
+    "themes": [
+      "corruption hidden behind warmth",
+      "spectacle justice becoming new violence",
+      "identity collapse when the badge is stripped"
+    ]
+  },
+  "symbols": {
+    "coffee_cup": "routine as false safety; the last peaceful mask",
+    "broken_watch": "stopped time / broken promises; clinging to identity",
+    "erased_notebook": "truth repeatedly overwritten"
+  },
+  "keywords": [
+    "corrupt_cop",
+    "small_town_power_broker",
+    "affable_mask",
+    "systemic_capture",
+    "public_exposure",
+    "vigilante_streamer",
+    "spectacle_justice",
+    "identity_collapse"
+  ]
+}
