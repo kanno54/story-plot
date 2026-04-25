@@ -1,0 +1,161 @@
+{
+  system_name: "underground_pair_stream_system",
+  version: "1.0",
+  description: "元幹部2名を対象とした、投票・指示・成果判定・報酬給付を備えた双方向リアルタイム配信システム。観衆の投票に基づき課題が提示され、被収容者は成果を達成しない限り水・食事などの基本的給付を受けられない。",
+
+  environment: {
+    location: "soapland_underground_stream_cell",
+    access: "locked_room",
+    occupancy: 2,
+    surveillance: "24h",
+    lighting: {
+      base: "白色LED",
+      highlight: "タスク位置に自動追従ライト"
+    },
+    audio: {
+      playback: "AI_commentary_stream",
+      comment_voice_mode: "gender_age_random",
+      mixing: "multi_voice_overlap_dynamic"
+    }
+  },
+
+  camera_system: {
+    visible_main_camera: {
+      id: "main_cam_01",
+      position: "tripod_front_center",
+      purpose: "被収容者に“これが唯一の配信カメラ”と思い込ませる"
+    },
+    hidden_cameras: [
+      {
+        id: "top_cam",
+        type: "wide_angle",
+        position: "ceiling",
+        purpose: "全景・俯瞰"
+      },
+      {
+        id: "wall_cam_left",
+        type: "mid_range",
+        position: "wall_left_eye_level",
+        purpose: "表情・細かい動き"
+      },
+      {
+        id: "wall_cam_right",
+        type: "mid_range",
+        position: "wall_right_eye_level",
+        purpose: "死角補完"
+      },
+      {
+        id: "floor_cam",
+        type: "macro_low_angle",
+        position: "floor_seam",
+        purpose: "足元・低角度撮影"
+      },
+      {
+        id: "rear_cam",
+        type: "wide_angle",
+        position: "behind_subjects",
+        purpose: "背面の検出と全周映像化"
+      }
+    ],
+    viewer_features: {
+      angle_switching: true,
+      multiscreen_support: true,
+      auto_highlight_edit: "AI_digest_mode",
+      screenshot_logging: true
+    }
+  },
+
+  streaming: {
+    platform: "corporate_private_stream_net",
+    latency: "ultra_low",
+    viewer_interaction: {
+      vote_based_task_selection: true,
+      live_comment_feed: true,
+      audio_comment_reading: "AI_voice",
+      superchat_reward_integration: true
+    },
+    anonymity: {
+      viewer_names_hidden: true,
+      metadata_obscured: true
+    }
+  },
+
+  task_system: {
+    task_source: "operator_task_pool",
+    selection_method: "viewer_vote",
+    vote_cycle_seconds: 60,
+    execution_point: {
+      required: true,
+      purpose: "映像最適化・センサー精度維持",
+      markers: [
+        "task_point_A",
+        "task_point_B"
+      ]
+    },
+    success_conditions: {
+      sensor_validation: true,
+      timer_requirement: true,
+      operator_override: false
+    },
+    failure_penalties: {
+      food_denial: true,
+      water_denial: true,
+      time_extension: true
+    },
+    reward_on_success: {
+      temporary_transfer: "waiting_room",
+      give_water: true,
+      give_food: true,
+      rest_time_minutes: 10
+    }
+  },
+
+  commentary_AI: {
+    engine: "neutral_tts_v5",
+    voice_variation: ["male_young", "male_low", "female_young", "female_middle", "old_male", "old_female", "childlike"],
+    speed_dynamic: true,
+    overlap_mode: "crowd_noise_simulation",
+    content_filters: {
+      profanity_allowed: true,
+      threats_blocked: false,
+      viewer_generated_comments: true
+    }
+  },
+
+  highlight_AI: {
+    engine: "auto_editor_v3",
+    triggers: [
+      "rapid_movement",
+      "hesitation",
+      "表情変化",
+      "視聴者コメント急増",
+      "タスク成功直前",
+      "二名の反応差異"
+    ],
+    output_formats: ["30s_digest", "3min_digest", "loop_clip"]
+  },
+
+  psychological_effect_design: {
+    perception_control: {
+      belief_in_single_camera: true,
+      hidden_cameras_undisclosed: true
+    },
+    asymmetry_of_viewing: {
+      viewers_can_see_all_angles: true,
+      subjects_cannot: true
+    },
+    tension_drivers: [
+      "資源剥奪による生存ストレス",
+      "相互観察状態の固定化",
+      "群衆AIボイスによる継続的圧",
+      "タスク成功者だけの給付",
+      "敗北順による心理差"
+    ]
+  },
+
+  safety_notes: {
+    explicit_actions_replaced_by_tokens: true,
+    token_format: "【E*】",
+    system_focus: "羞恥構造・監視構造・心理的圧力"
+  }
+}

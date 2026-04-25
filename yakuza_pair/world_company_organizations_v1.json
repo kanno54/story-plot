@@ -1,0 +1,121 @@
+{
+  metadata: {
+    file: "world_company_organizations_v1",
+    purpose: "配信システムの裏側に存在する企業・組織・関係性の設定ファイル",
+    version: "1.0"
+  },
+
+  main_entities: {
+    operator_company: {
+      name: "BLOSSOM",
+      type: "private_male_service_and_stream_operator",
+      facade_business: "男性向けソープランド運営（高級路線）",
+      hidden_business: [
+        "拘束配信コンテンツの制作・販売",
+        "視聴者参加型リアルタイム配信",
+        "地下収容セル管理",
+        "高額課金型投票システムの運営"
+      ],
+      facility_features: {
+        has_underground_stream_cells: true,
+        ai_stream_engine: "auto_editor_v3 + neutral_tts_v5",
+        security_policy: "無人監視・自動ドアロック・対象とスタッフの非接触化",
+        viewer_access: "招待制・独自ネットワーク"
+      },
+      management_policy: {
+        priority: [
+          "収益性の最大化",
+          "対象者の“商品価値”維持",
+          "視聴者参加性の強化",
+          "コンテンツの過激化（死亡リスクを除く）"
+        ],
+        stance_on_subjects: "尊厳よりも収益性を優先。対象者をコンテンツ資源として扱う。",
+        intervention: {
+          physical_staff_appearance: false,
+          explanation: "対象者に人間的支援を与えないため"
+        }
+      },
+      revenue_model: {
+        membership_fee: "high_monthly_fee",
+        superchat_integration: true,
+        vote_based_task_selection: true,
+        digest_clip_sales: true,
+        sponsor_tier: ["bronze", "silver", "gold", "premium_lotus"]
+      },
+      internal_structure: {
+        ceo: "辰巳会傘下の名義人",
+        divisions: {
+          content_director: "配信企画・羞恥設計",
+          tech_division: "AI制御・カメラ群制御・低遅延配信",
+          viewer_management: "裏会員管理・課金監査",
+          task_ops: "ミッション設計・難易度管理",
+          security_unit: "無人警備・対象者監禁管理"
+        }
+      }
+    },
+
+    background_criminal_org: {
+      name: "辰巳会",
+      type: "organized_crime_group",
+      public_front: ["物流会社", "建設請負", "下請け企業"],
+      illicit_activities: [
+        "薬物流通",
+        "売春ルート維持",
+        "債務者回収",
+        "違法労働管理"
+      ],
+      organizational_style: {
+        culture: "冷酷・効率主義・敗者利用",
+        policy: "滅ぼした敵組の幹部は“処分ではなく収益化”する",
+        relationship_with_blossom: "配信対象供給と収益分配"
+      },
+      connection_with_protagonists: {
+        past_conflict: "主人公たちの属する旧組を抗争で壊滅",
+        captured_members: 2,
+        motivation: [
+          "見せしめ効果",
+          "組員への統制",
+          "敵幹部のブランド価値の利用"
+        ],
+        transfer_reason: "BLOSSOMが高額で買い取り、配信コンテンツ化の素材として利用"
+      }
+    }
+  },
+
+  business_logic: {
+    why_pair_streaming: [
+      "心理落差と反応差が収益を最大化する",
+      "互いの羞恥が連鎖反応を起こし視聴者が盛り上がる",
+      "片方が折れた瞬間の“落差ドラマ”が人気",
+      "協働タスクは投票競争と相性が良い",
+      "二人組の方が AI 編集ダイジェストの伸びが良い"
+    ],
+    subject_selection_criteria: [
+      "知名度がある（元幹部・元スポーツ選手など）",
+      "プライドが高い",
+      "反抗的で“落としがい”がある",
+      "身体的には商品価値が残っている",
+      "逃走困難な立場（債務・抗争敗北・身柄拘束）"
+    ],
+    long_term_intent: [
+      "配信シリーズ化",
+      "切り抜き文化の育成",
+      "裏会員の拡大",
+      "視聴者コミュニティの常設"
+    ]
+  },
+
+  narrative_functions: {
+    purpose_in_story: [
+      "主人公二人を支配する絶対的環境の基盤",
+      "二人が逃れられない合理的理由を提供",
+      "羞恥・屈服・依存のドラマを成立させる構造として働く"
+    ],
+    tension_points: [
+      "運営が絶対に姿を見せないことによる孤立感",
+      "辰巳会に逆らえない過去の因果が常に残る",
+      "配信収益が上がるほど要求が過激化する",
+      "二人は“価値がある限り生かされる”という残酷な安定"
+    ]
+  }
+}

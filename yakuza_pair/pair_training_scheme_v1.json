@@ -1,0 +1,124 @@
+{
+  metadata: {
+    file: "pair_training_scheme_v1",
+    purpose: "ソロ調教フェーズとペア調教フェーズを統合した調教システムの進行仕様",
+    version: "1.0"
+  },
+
+  phases: {
+    phase1_solo: {
+      description: "A/Bを比較しながら個別に崩し、羞恥耐性と依存性を形成するフェーズ。視線遮断やカーテン演出が最大効果を発揮する時期。",
+      core_mechanics: [
+        "個別タスク（ソロ）で成功/失敗を評価",
+        "視線遮断カーテンによる非対称羞恥",
+        "シンキングタイム中は相手が見えず、AI読み上げコメントのみ可聴",
+        "ショウタイム開始後にカーテンがゆっくり上昇し互いの実行内容が晒される",
+        "視聴者は常にA/Bの両側を見られる（非対称視線構造）"
+      ],
+
+      viewer_voting: {
+        description: "視聴者は大量の候補タスクに投票し、上位3つのみ演者側に提示される。",
+        full_pool_size: "50-100",
+        displayed_choices: 3,
+        cycle_seconds: 60,
+        effect: "演者は3択の中からどれかを選ばなければ飢餓状態に陥る。拒否は死亡リスクのある選択となる。"
+      },
+
+      task_execution_flow: {
+        thinking_time: {
+          description: "相手の状況が視認不可。AI読み上げコメントのみ流れ、心理比較が強化される。",
+          curtain: "lowered"
+        },
+        showtime: {
+          description: "実行開始と同時にカーテンがゆっくり上昇し、互いの直前の意思決定や姿勢が晒される。",
+          curtain_motion: "gradual_upward",
+          viewer_privilege: "リアルタイムで全アングル把握"
+        },
+        reward_judgment: {
+          success: "成功者は別室へ移動し、水・食料を受け取る",
+          failure: "未達者は居残りとなり疲労/飢餓が蓄積",
+          psychological_effect: [
+            "優劣の固定化",
+            "劣等側の依存心増加",
+            "優位側の罪悪感/優越感の混在"
+          ]
+        }
+      },
+
+      progression_logic: {
+        audience_fatigue: "タスク成功率と反応の安定により観衆の興味が低下するとスパチャと得票が下がる。",
+        insufficient_votes: "ソロタスクが得票ラインに届かなくなり、成功しても報酬が出ない状態になる。",
+        escalation_unlock: "羞恥ログ・心拍数ログ・躊躇時間などを元にAIが“激しい選択肢”を徐々に解禁する。",
+        transition_condition: "一定期間、ソロタスクで報酬得票に到達しない状態が続くとペアタスク候補が提示され始める。"
+      }
+    },
+
+    phase2_pair: {
+      description: "A/Bが協力しなければ成功できないタスクが解禁され、共犯関係・相互依存・羞恥の同時化が発生するフェーズ。",
+      core_mechanics: [
+        "カーテン演出は不要。常時相互視認状態でタスクに挑む。",
+        "成功/失敗が2人同時に適用される（共罰/共報酬）。",
+        "呼吸・姿勢・動作の同期が判定項目に追加される。",
+        "片方の精神崩壊がもう片方にも波及するため落ちやすくなる。"
+      ],
+
+      viewer_voting: {
+        description: "ペアタスクが新規選択肢として開放され、視聴者投票では高順位になりやすい。生存のためにペアタスク選択が必須となる。",
+        unlock_condition: [
+          "ソロタスクの得票不足",
+          "AIが羞恥耐性と反応パターンから“ペア適性”を検知"
+        ],
+        displayed_choices_logic: "ソロ2＋ペア1 → ソロ1＋ペア2 → ペア3のように段階的に変化"
+      },
+
+      task_execution_flow: {
+        constant_mutual_visibility: true,
+        required_two_person_sync: true,
+        reward_logic: {
+          success: "両名が同時に報酬を獲得し、待機室で休息できる",
+          failure: "両名が飢餓/疲労状態へ進行し、次サイクルの心理崩壊を加速する"
+        },
+
+        psychological_effect: [
+          "相手がいないと生存できない状態が形成される",
+          "共倒れ回避のために自然と協力関係が発生",
+          "二人の羞恥反応が相互に強化され、依存化が進む",
+          "過去の比較優劣が関係性に歪んだ影響を残す"
+        ]
+      }
+    }
+  },
+
+  system_transition: {
+    description: "ソロ→ペアへの移行を管理するAIロジック。",
+    triggers: [
+      "ソロタスクの得票不足が複数回連続",
+      "演者A/Bの羞恥耐性の閾値突破",
+      "視聴者のコメントと反応が“新刺激”を要求",
+      "配信収益の低下をAIが検知"
+    ],
+    transition_effect: [
+      "提示タスクにペア型が混入し始める",
+      "報酬ロジックが“協働成功前提”へ変更",
+      "衣装/罰/リワードがペア前提の仕様に変化する"
+    ]
+  },
+
+  psychological_design: {
+    solo_phase: [
+      "比較による劣等心の蓄積",
+      "差分評価による優越/嫉妬の誘導",
+      "視線遮断と後晒し構造による羞恥の増幅"
+    ],
+    pair_phase: [
+      "共生・共罰による強制協力",
+      "孤立から相互依存へ移行する心理誘導",
+      "二人同時に羞恥を晒すことで羞恥トレランスが再破壊される"
+    ]
+  },
+
+  safety_notes: {
+    explicit_act_placeholder: "性的内容は【E*】トークン処理で後補完",
+    system_focus: "構造・心理・進行条件のみ"
+  }
+}
