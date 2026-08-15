@@ -1,0 +1,152 @@
+浴衣連作プロンプト集（6枚）
+
+使い方メモ
+- 各番号ごとに、そのまま1本ずつコピペして使う想定です。
+- 6枚とも、共通キャラ設定・共通作画ルールを本文に統合済みです。
+- 吹き出しは日本語で指定しています。
+- 連作として統一したいので、毎回「same character design throughout the series」を入れています。
+
+==================================================
+1. 試着室：「似合う」と言われ慣れてない
+==================================================
+masterpiece, best quality, anime illustration, clean detailed lineart, slightly painterly cel shading, cinematic warm indoor lighting, vertical 4:5 composition, comic illustration style with speech bubbles, polished single-panel manga illustration, same character design throughout the whole six-image series.
+
+Two adult Japanese men.
+Character A: an adult Japanese man in his late twenties, very tall and broad, strongly built with a heavy athletic muscular physique, thick neck, broad shoulders, solid chest, powerful arms, large hands, sturdy masculine frame, clearly big and strong but not exaggerated like a bodybuilder, rugged handsome face, short black hair with a slightly spiky natural texture, very thick dark eyebrows, narrow dark eyes, strong jawline, straight nose, light blush when embarrassed, stern expression that becomes shy when flustered, clean-shaven. He wears a dark navy yukata with a subtle woven geometric pattern, a muted blue-gray obi, and wooden geta.
+Character B: an adult Japanese man in his mid to late twenties, slightly shorter than Character A, lean and toned rather than bulky, graceful but masculine build, calm intelligent face, black hair with soft layered bangs, expressive dark eyes, refined features, gentle but teasing expression, mature and attractive, not childlike, clean-shaven. He wears a dark brown or charcoal-brown striped yukata with a dark obi and simple geta.
+Relationship and mood: they are longtime childhood friends with quiet romantic tension. Character B is more openly teasing and caring. Character A is gruff, easily embarrassed, and blushes when praised or taken care of.
+
+Scene: inside a traditional yukata shop at night, warm indoor lighting, shelves of folded yukata fabrics in the background, a fitting curtain partly open. Character A stands in front of the fitting space, awkward and visibly embarrassed in his dark navy yukata, one hand touching the back of his neck. Character B stands in front of him in his dark brown striped yukata, looking up at him with surprise and admiration. This is the moment Character B realizes just how good Character A looks in yukata.
+
+Composition: full upper-to-lower body view of Character A, Character B visible from the back and side, both clearly readable. Focus on Character A’s broad frame in the yukata and his blushing face.
+
+Mood: shy, intimate, slightly comedic, warm.
+
+Include clean white Japanese speech bubbles with black outline and legible vertical Japanese text. Include these Japanese speech bubbles:
+- Character A: 「こんなの俺には似合わねえって」
+- Character B: 「……何だよ、その反応」
+- Character B: 「いや、めちゃくちゃ似合ってる」
+- Character A: 「……そういうの、いいから」
+
+Constraints: keep both characters clearly adult and mature-looking. Keep Character B mature and attractive, not childlike. Preserve the same face shape, eyebrows, hairstyle, and age impression throughout the series. No extra limbs, no duplicated hands, no malformed fingers, no text outside speech bubbles, no chibi style, no overly realistic photo style.
+
+==================================================
+2. 祭りで再会：いつも作業着の男が浴衣
+==================================================
+masterpiece, best quality, anime illustration, clean detailed lineart, slightly painterly cel shading, cinematic warm summer festival lighting, vertical 4:5 composition, comic illustration style with speech bubbles, polished single-panel manga illustration, same character design throughout the whole six-image series.
+
+Two adult Japanese men.
+Character A: an adult Japanese man in his late twenties, very tall and broad, strongly built with a heavy athletic muscular physique, thick neck, broad shoulders, solid chest, powerful arms, large hands, sturdy masculine frame, clearly big and strong but not exaggerated like a bodybuilder, rugged handsome face, short black hair with a slightly spiky natural texture, very thick dark eyebrows, narrow dark eyes, strong jawline, straight nose, light blush when embarrassed, stern expression that becomes shy when flustered, clean-shaven. He wears a dark navy yukata with a subtle woven geometric pattern, a muted blue-gray obi, and wooden geta.
+Character B: an adult Japanese man in his mid to late twenties, slightly shorter than Character A, lean and toned rather than bulky, graceful but masculine build, calm intelligent face, black hair with soft layered bangs, expressive dark eyes, refined features, gentle but teasing expression, mature and attractive, not childlike, clean-shaven. He wears a dark brown or charcoal-brown striped yukata with a dark obi and simple geta.
+Relationship and mood: they are longtime childhood friends with quiet romantic tension. Character B is more openly teasing and caring. Character A is gruff, easily embarrassed, and blushes when praised or taken care of.
+
+Scene: a summer festival at night, glowing paper lanterns overhead, food stalls and festival crowd in the background. Character A stands in the middle of the festival path in his dark navy yukata, looking slightly away with a red face, one hand near the back of his neck. Character B stands nearby, looking at him with quiet admiration. The focus is on Character A being seen in yukata for the first time and being flustered by the attention.
+
+Composition: Character A is the main subject, from knees or thighs up, Character B partially visible at the side or foreground. Keep the crowd soft and secondary.
+
+Mood: romantic tension, embarrassment, festival warmth.
+
+Include clean white Japanese speech bubbles with black outline and legible vertical Japanese text. Include these Japanese speech bubbles:
+- Character A: 「何ジロジロ見てんだよ」
+- Character B: 「……」
+- Character B: 「いや。やっぱ似合うなって」
+- Character A: 「うるせえ」
+
+Constraints: keep both characters clearly adult and mature-looking. Keep Character B mature and attractive, not childlike. Preserve the same face shape, eyebrows, hairstyle, and age impression throughout the series. Keep Character A’s face and physique consistent with the rest of the series. No extra limbs, no duplicated hands, no malformed fingers, no text outside speech bubbles, no chibi style, no overly realistic photo style.
+
+==================================================
+3. 下駄で靴擦れ
+==================================================
+masterpiece, best quality, anime illustration, clean detailed lineart, slightly painterly cel shading, cinematic warm summer festival lighting, vertical 4:5 composition, comic illustration style with speech bubbles, polished single-panel manga illustration, same character design throughout the whole six-image series.
+
+Two adult Japanese men.
+Character A: an adult Japanese man in his late twenties, very tall and broad, strongly built with a heavy athletic muscular physique, thick neck, broad shoulders, solid chest, powerful arms, large hands, sturdy masculine frame, clearly big and strong but not exaggerated like a bodybuilder, rugged handsome face, short black hair with a slightly spiky natural texture, very thick dark eyebrows, narrow dark eyes, strong jawline, straight nose, light blush when embarrassed, stern expression that becomes shy when flustered, clean-shaven. He wears a dark navy yukata with a subtle woven geometric pattern, a muted blue-gray obi, and wooden geta.
+Character B: an adult Japanese man in his mid to late twenties, slightly shorter than Character A, lean and toned rather than bulky, graceful but masculine build, calm intelligent face, black hair with soft layered bangs, expressive dark eyes, refined features, gentle but teasing expression, mature and attractive, not childlike, clean-shaven. He wears a dark brown or charcoal-brown striped yukata with a dark obi and simple geta.
+Relationship and mood: they are longtime childhood friends with quiet romantic tension. Character B is more openly teasing and caring. Character A is gruff, easily embarrassed, and blushes when praised or taken care of.
+
+Scene: a quieter area near the summer festival, lantern light in the background, stone curb at the roadside. Character A sits down awkwardly because his foot hurts from unfamiliar geta. One geta is off beside him. Character B kneels in front of him, carefully putting a bandage on Character A’s heel. Character A looks grumpy and embarrassed, but he is letting Character B help him.
+
+Composition: both characters clearly visible. Show Character A’s size and weight contrasted with the gentle caretaking scene. The foot and bandage should be visible and readable, but do not make the image feel medical or awkward.
+
+Mood: cute, teasing, intimate, slightly comedic.
+
+Include clean white Japanese speech bubbles with black outline and legible vertical Japanese text. Include these Japanese speech bubbles:
+- Character B: 「だからスニーカーでいいって言っただろ」
+- Character A: 「祭りにそれはねえだろ」
+- Character B: 「ほら、じっとして」
+- Character A: 「……ガキ扱いすんな」
+
+Constraints: keep both characters clearly adult and mature-looking. Keep Character B mature and attractive, not childlike. Preserve the same face shape, eyebrows, hairstyle, and age impression throughout the series. Keep Character A’s eyebrows thick but normal and consistent with the rest of the series. No extra limbs, no duplicated hands, no malformed fingers, no text outside speech bubbles, no chibi style, no overly realistic photo style.
+
+==================================================
+4. 祭りの喧嘩帰り
+==================================================
+masterpiece, best quality, anime illustration, clean detailed lineart, slightly painterly cel shading, cinematic warm summer festival lighting, vertical 4:5 composition, comic illustration style with speech bubbles, polished single-panel manga illustration, same character design throughout the whole six-image series.
+
+Two adult Japanese men.
+Character A: an adult Japanese man in his late twenties, very tall and broad, strongly built with a heavy athletic muscular physique, thick neck, broad shoulders, solid chest, powerful arms, large hands, sturdy masculine frame, clearly big and strong but not exaggerated like a bodybuilder, rugged handsome face, short black hair with a slightly spiky natural texture, very thick dark eyebrows, narrow dark eyes, strong jawline, straight nose, light blush when embarrassed, stern expression that becomes shy when flustered, clean-shaven. He wears a dark navy yukata with a subtle woven geometric pattern, a muted blue-gray obi, and wooden geta.
+Character B: an adult Japanese man in his mid to late twenties, slightly shorter than Character A, lean and toned rather than bulky, graceful but masculine build, calm intelligent face, black hair with soft layered bangs, expressive dark eyes, refined features, gentle but teasing expression, mature and attractive, not childlike, clean-shaven. He wears a dark brown or charcoal-brown striped yukata with a dark obi and simple geta.
+Relationship and mood: they are longtime childhood friends with quiet romantic tension. Character B is more openly teasing and caring. Character A is gruff, easily embarrassed, and blushes when praised or taken care of.
+
+Scene: after the festival commotion, near a shrine approach at night under lantern light. Character A is sweaty and slightly disheveled after carrying a mikoshi or getting involved in a small scuffle. His navy yukata is loosened at the chest and collar, and he has a small scratch on his cheek. Character B stands very close in front of him, reaching up to fix his collar and straighten the yukata. Character A looks down at him with an embarrassed but obedient expression.
+
+Composition: chest-up or waist-up close distance framing, emphasizing the physical closeness and the contrast between Character A’s rough masculine presence and Character B’s calm caretaking. Keep Character A muscular, but not absurdly larger than in other scenes.
+
+Mood: sweaty, masculine, emotionally close, slightly tense but tender.
+
+Include clean white Japanese speech bubbles with black outline and legible vertical Japanese text. Include these Japanese speech bubbles:
+- Character B: 「じっとしてろ、襟ずれてる」
+- Character A: 「子供扱いすんな」
+- Character B: 「だったら自分で直せよ」
+- Character A: 「……今はお前でいい」
+
+Constraints: keep both characters clearly adult and mature-looking. Keep Character B mature and attractive, not childlike. Preserve the same face shape, eyebrows, hairstyle, and age impression throughout the series. Important: keep Character A’s body proportion consistent with the rest of the series; do not make him excessively bodybuilder-like. No extra limbs, no duplicated hands, no malformed fingers, no text outside speech bubbles, no chibi style, no overly realistic photo style.
+
+==================================================
+5. 帯がほどけかけてる
+==================================================
+masterpiece, best quality, anime illustration, clean detailed lineart, slightly painterly cel shading, cinematic warm summer festival lighting, vertical 4:5 composition, comic illustration style with speech bubbles, polished single-panel manga illustration, same character design throughout the whole six-image series.
+
+Two adult Japanese men.
+Character A: an adult Japanese man in his late twenties, very tall and broad, strongly built with a heavy athletic muscular physique, thick neck, broad shoulders, solid chest, powerful arms, large hands, sturdy masculine frame, clearly big and strong but not exaggerated like a bodybuilder, rugged handsome face, short black hair with a slightly spiky natural texture, very thick dark eyebrows, narrow dark eyes, strong jawline, straight nose, light blush when embarrassed, stern expression that becomes shy when flustered, clean-shaven. He wears a dark navy yukata with a subtle woven geometric pattern, a muted blue-gray obi, and wooden geta.
+Character B: an adult Japanese man in his mid to late twenties, slightly shorter than Character A, lean and toned rather than bulky, graceful but masculine build, calm intelligent face, black hair with soft layered bangs, expressive dark eyes, refined features, gentle but teasing expression, mature and attractive, not childlike, clean-shaven. He wears a dark brown or charcoal-brown striped yukata with a dark obi and simple geta.
+Relationship and mood: they are longtime childhood friends with quiet romantic tension. Character B is more openly teasing and caring. Character A is gruff, easily embarrassed, and blushes when praised or taken care of.
+
+Scene: a narrow wooden alley near the festival at night, warm lantern glow, petals or small debris on the ground, quieter and more intimate than the main festival street. Character A stands facing slightly away, his dark navy yukata slightly loose, while Character B stands directly behind him, retying the obi around his waist. Character B’s arms wrap around from behind as he fixes the belt. Character A blushes heavily and looks aside in embarrassment. Character B looks focused and calm.
+
+Composition: medium full-body shot showing both men clearly and the obi-tying action. Emphasize closeness, tension, and body language.
+
+Mood: intimate, romantic, quiet, teasing.
+
+Include clean white Japanese speech bubbles with black outline and legible vertical Japanese text. Include these Japanese speech bubbles:
+- Character B: 「動くな、帯ほどけてる」
+- Character A: 「自分でできる」
+- Character B: 「できてねえから言ってる」
+- Character A: 「……近い」
+- Character B: 「今さらだろ」
+
+Constraints: keep both characters clearly adult and mature-looking. Keep Character B mature and attractive, not childlike. Preserve the same face shape, eyebrows, hairstyle, and age impression throughout the series. Important anatomy instruction: ensure exactly four visible hands total, with no duplicated arms, no extra fingers, and no extra limbs. No text outside speech bubbles, no chibi style, no overly realistic photo style.
+
+==================================================
+6. 旅館の夜、縁側で涼む
+==================================================
+masterpiece, best quality, anime illustration, clean detailed lineart, slightly painterly cel shading, cinematic warm summer night lighting with moonlight and soft indoor glow, vertical 4:5 composition, comic illustration style with speech bubbles, polished single-panel manga illustration, same character design throughout the whole six-image series.
+
+Two adult Japanese men.
+Character A: an adult Japanese man in his late twenties, very tall and broad, strongly built with a heavy athletic muscular physique, thick neck, broad shoulders, solid chest, powerful arms, large hands, sturdy masculine frame, clearly big and strong but not exaggerated like a bodybuilder, rugged handsome face, short black hair with a slightly spiky natural texture, very thick dark eyebrows, narrow dark eyes, strong jawline, straight nose, light blush when embarrassed, stern expression that becomes shy when flustered, clean-shaven. He wears a dark navy yukata with a subtle woven geometric pattern, a muted blue-gray obi, and wooden geta.
+Character B: an adult Japanese man in his mid to late twenties, slightly shorter than Character A, lean and toned rather than bulky, graceful but masculine build, calm intelligent face, black hair with soft layered bangs, expressive dark eyes, refined features, gentle but teasing expression, mature and attractive, not childlike, clean-shaven. He wears a dark brown or charcoal-brown striped yukata with a dark obi and simple geta.
+Relationship and mood: they are longtime childhood friends with quiet romantic tension. Character B is more openly teasing and caring. Character A is gruff, easily embarrassed, and blushes when praised or taken care of.
+
+Scene: a quiet inn veranda at night after the festival, moonlit garden, soft interior light from the room, a mosquito coil nearby, and a round bamboo fan in Character A’s hand. Character A and Character B sit close together on the wooden engawa. Character B leans comfortably against Character A’s shoulder. Character A gently fans the air toward both of them. Their yukata are slightly relaxed from the long day, but still neat. Character A looks at Character B with a soft, fond expression. Character B smiles with relaxed affection.
+
+Composition: seated two-shot, waist to full body, centered and calm, with the night garden as a beautiful backdrop. This should feel like the emotional epilogue of the series.
+
+Mood: quiet, tender, romantic, relieved, warm summer night.
+
+Include clean white Japanese speech bubbles with black outline and legible vertical Japanese text. Include these Japanese speech bubbles:
+- Character A: 「暑いなら、もっとこっち来いよ」
+- Character B: 「……じゃあ、遠慮なく」
+- Character B: 「今日は素直だな」
+- Character A: 「最初からそうしろ」
+
+Constraints: keep both characters clearly adult and mature-looking. Keep Character B mature and attractive, not childlike. Preserve the same face shape, eyebrows, hairstyle, and age impression throughout the series. Keep Character A looking mature and handsome, not old or tired-looking. No extra limbs, no duplicated hands, no malformed fingers, no text outside speech bubbles, no chibi style, no overly realistic photo style.
